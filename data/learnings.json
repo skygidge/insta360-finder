@@ -1,0 +1,17 @@
+{
+  "last_updated": "2026-04-05",
+  "next_week_type": "A",
+  "week_rotation": {
+    "A": "Reddit + YouTube",
+    "B": "News articles + scientific journals",
+    "C": "Forums + source discovery"
+  },
+  "query_performance": {},
+  "source_reliability": {},
+  "discovered_sources": [],
+  "patterns": [],
+  "feedback": [],
+  "suggestions_for_next_run": [
+    "First run — cast a wide net across Reddit and YouTube to establish a baseline"
+  ]
+}

@@ -57,7 +57,47 @@
     "Reddit site: searches return zero results via standard web search — visit Reddit directly or use Pushshift/Google index searches instead",
     "War journalism / documentary journalism is an entirely untapped Insta360 story category with very high prestige potential"
   ],
-  "feedback": [],
+  "feedback": [
+    {
+      "date": "2026-04-07",
+      "story": "Mstyslav Chernov",
+      "verdict": "REJECTED",
+      "reason": "Source link does not confirm Insta360 use. The agent inferred 360-camera use from context but could not verify the brand was Insta360. False positive.",
+      "lesson": "Never include a story based on inference. Must find an explicit 'Insta360' name mention in a source before including."
+    },
+    {
+      "date": "2026-04-07",
+      "story": "Ben Forsyth / Think Films",
+      "verdict": "REJECTED",
+      "reason": "Project is 2 years old. The crowdfunding campaign failed and the documentary was never made. Stale and unmade project.",
+      "lesson": "Verify that projects are recent (within 18 months) AND actually completed or actively in production. Check crowdfunder status if relevant."
+    },
+    {
+      "date": "2026-04-07",
+      "story": "Amalia Ulman",
+      "verdict": "WEAK",
+      "reason": "Insta360 use not prominent or confirmed. Agent inferred from fisheye shots in the film but the brand was not explicitly identified.",
+      "lesson": "Fisheye or wide-angle shots do not imply Insta360. Require explicit brand confirmation."
+    },
+    {
+      "date": "2026-04-07",
+      "story": "Nick & Caroline Robertson-Brown",
+      "verdict": "ACCEPTABLE",
+      "reason": "Insta360 X4 explicitly named in source. Story is real and compelling. User did not reject this one.",
+      "lesson": "This is the right quality bar — explicit product name, real conservation mission, credentialed creators."
+    },
+    {
+      "date": "2026-04-07",
+      "story": "Jenny Stock",
+      "verdict": "ACCEPTABLE",
+      "reason": "Insta360 X4 explicitly named, real competition win, credentialed filmmaker. User did not reject this one.",
+      "lesson": "Award wins with explicit Insta360 credit are strong candidates."
+    },
+    {
+      "date": "2026-04-07",
+      "overall": "Run quality too low. 3 of 5 stories were false positives or stale. Agent must be more skeptical and verify each candidate with a second search before including."
+    }
+  ],
   "suggestions_for_next_run": [
     "Week B: Search Google Scholar for 'insta360' in marine biology, ecology, archaeology, volcanology journals 2024-2026",
     "Week B: Search BBC.com, Guardian, Wired, NatGeo for 'insta360' mentioned by scientists, researchers, or documentary journalists",

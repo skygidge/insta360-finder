@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insta360 Creator Story Finder</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #0f0f0f;
+    color: #e8e8e8;
+    min-height: 100vh;
+  }
+
+  header {
+    background: #1a1a1a;
+    border-bottom: 1px solid #2a2a2a;
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  header h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  header h1 span.logo {
+    background: #ff6b00;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+  }
+
+  .stats {
+    display: flex;
+    gap: 24px;
+    font-size: 13px;
+    color: #888;
+  }
+
+  .stats strong { color: #fff; }
+
+  main { max-width: 1100px; margin: 0 auto; padding: 32px; }
+
+  .controls {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  input[type="search"] {
+    flex: 1;
+    min-width: 220px;
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-radius: 8px;
+    padding: 10px 16px;
+    color: #e8e8e8;
+    font-size: 14px;
+    outline: none;
+  }
+
+  input[type="search"]:focus { border-color: #ff6b00; }
+
+  select {
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-radius: 8px;
+    padding: 10px 14px;
+    color: #e8e8e8;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  select:focus { border-color: #ff6b00; }
+
+  .count { font-size: 13px; color: #666; margin-left: auto; }
+
+  .section-title {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #ff6b00;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #1f1f1f;
+  }
+
+  .top-picks {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+
+  .top-pick-card {
+    background: linear-gradient(135deg, #1e1a14, #1a1a1a);
+    border: 1px solid #3a2a10;
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+  }
+
+  .top-pick-card .rank {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 22px;
+  }
+
+  .top-pick-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 4px;
+    padding-right: 32px;
+  }
+
+  .top-pick-card .meta {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 12px;
+  }
+
+  .top-pick-card p {
+    font-size: 13px;
+    color: #bbb;
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+
+  .top-pick-card .why {
+    font-size: 12px;
+    color: #ff9940;
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+  }
+
+  .card {
+    background: #1a1a1a;
+    border: 1px solid #252525;
+    border-radius: 12px;
+    padding: 20px;
+    transition: border-color 0.15s, transform 0.15s;
+    cursor: default;
+  }
+
+  .card:hover {
+    border-color: #3a3a3a;
+    transform: translateY(-1px);
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    gap: 8px;
+  }
+
+  .card h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.3;
+  }
+
+  .badge {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 20px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .badge.high { background: #0d3320; color: #4ade80; }
+  .badge.medium { background: #1f2a10; color: #a3e635; }
+  .badge.low { background: #2a1a10; color: #fb923c; }
+
+  .card .location {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+
+  .card .location::before { content: '📍 '; }
+
+  .card .summary {
+    font-size: 13px;
+    color: #aaa;
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+
+  .card .product {
+    font-size: 12px;
+    background: #1f1a2e;
+    color: #a78bfa;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+  .card .why {
+    font-size: 12px;
+    color: #888;
+    line-height: 1.5;
+    border-top: 1px solid #222;
+    padding-top: 10px;
+    margin-top: 4px;
+  }
+
+  .card .source-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+  }
+
+  .source-tag {
+    font-size: 11px;
+    color: #555;
+    background: #1f1f1f;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+
+  .card a {
+    font-size: 11px;
+    color: #ff6b00;
+    text-decoration: none;
+  }
+
+  .card a:hover { text-decoration: underline; }
+
+  .empty {
+    text-align: center;
+    color: #444;
+    padding: 60px 20px;
+    font-size: 15px;
+  }
+
+  .loading {
+    text-align: center;
+    color: #555;
+    padding: 80px 20px;
+    font-size: 14px;
+  }
+
+  .error {
+    background: #1f1010;
+    border: 1px solid #3a1010;
+    border-radius: 8px;
+    padding: 16px 20px;
+    color: #f87171;
+    font-size: 13px;
+    margin-bottom: 24px;
+  }
+
+  .run-info {
+    background: #151515;
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 14px 18px;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 28px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .run-info span strong { color: #aaa; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>
+    <span class="logo">360</span>
+    Creator Story Finder
+  </h1>
+  <div class="stats" id="header-stats">
+    <span>Loading...</span>
+  </div>
+</header>
+
+<main>
+  <div id="app">
+    <div class="loading">Loading stories from GitHub...</div>
+  </div>
+</main>
+
+<script>
+const REPO = 'skygidge/insta360-finder';
+const RAW = 'https://raw.githubusercontent.com/' + REPO + '/main/';
+
+async function fetchJSON(path) {
+  const r = await fetch(RAW + path + '?t=' + Date.now());
+  if (!r.ok) throw new Error(r.status + ' ' + path);
+  return r.json();
+}
+
+let allStories = [];
+let learnings = null;
+
+function confidence(c) {
+  const v = (c || '').toLowerCase();
+  if (v === 'high') return 'high';
+  if (v === 'medium') return 'medium';
+  return 'low';
+}
+
+function sourceLabel(t) {
+  const map = { reddit:'Reddit', youtube:'YouTube', news:'News', journal:'Journal', forum:'Forum', other:'Other' };
+  return map[(t||'').toLowerCase()] || t || 'Unknown';
+}
+
+function truncate(str, n) {
+  if (!str) return '';
+  return str.length > n ? str.slice(0, n) + '…' : str;
+}
+
+function escapeHTML(str) {
+  return (str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function renderCard(s) {
+  const conf = confidence(s.confidence);
+  return `
+  <div class="card" data-conf="${conf}" data-source="${(s.source_type||'').toLowerCase()}" data-name="${escapeHTML(s.name)}">
+    <div class="card-header">
+      <h3>${escapeHTML(s.name)}</h3>
+      <span class="badge ${conf}">${conf.charAt(0).toUpperCase()+conf.slice(1)}</span>
+    </div>
+    ${s.location ? `<div class="location">${escapeHTML(s.location)}</div>` : ''}
+    <p class="summary">${escapeHTML(s.story_summary)}</p>
+    ${s.product_used ? `<span class="product">${escapeHTML(s.product_used)}</span>` : ''}
+    ${s.why_it_matters ? `<p class="why">${escapeHTML(s.why_it_matters)}</p>` : ''}
+    <div class="source-row">
+      <span class="source-tag">${escapeHTML(sourceLabel(s.source_type))}</span>
+      ${s.source_link ? `<a href="${escapeHTML(s.source_link)}" target="_blank" rel="noopener">View source →</a>` : ''}
+    </div>
+  </div>`;
+}
+
+function renderTopPick(s, rank) {
+  const medals = ['🥇','🥈','🥉'];
+  return `
+  <div class="top-pick-card">
+    <span class="rank">${medals[rank] || ''}</span>
+    <h3>${escapeHTML(s.name)}</h3>
+    <div class="meta">${escapeHTML(s.location || 'Unknown')} &nbsp;·&nbsp; ${escapeHTML(s.product_used || 'Insta360')} &nbsp;·&nbsp; ${escapeHTML(sourceLabel(s.source_type))}</div>
+    <p>${escapeHTML(s.story_summary)}</p>
+    ${s.why_it_matters ? `<p class="why">"${escapeHTML(s.why_it_matters)}"</p>` : ''}
+    ${s.source_link ? `<a href="${escapeHTML(s.source_link)}" target="_blank" rel="noopener" style="font-size:12px;color:#ff6b00;">View source →</a>` : ''}
+  </div>`;
+}
+
+function getTopPicks(stories) {
+  const ranked = [...stories].sort((a,b) => {
+    const score = s => s.confidence?.toLowerCase() === 'high' ? 3 : s.confidence?.toLowerCase() === 'medium' ? 2 : 1;
+    return score(b) - score(a);
+  });
+  return ranked.slice(0, 3);
+}
+
+function render(stories, lrn) {
+  const app = document.getElementById('app');
+  const total = allStories.length;
+  const highConf = allStories.filter(s => confidence(s.confidence) === 'high').length;
+
+  document.getElementById('header-stats').innerHTML = `
+    <span><strong>${total}</strong> total stories</span>
+    <span><strong>${highConf}</strong> high confidence</span>
+    ${lrn?.session_date ? `<span>Last run: <strong>${lrn.session_date}</strong></span>` : ''}
+  `;
+
+  const topPicks = getTopPicks(stories);
+
+  const runInfoHtml = lrn ? `
+    <div class="run-info">
+      <span><strong>Last run:</strong> ${lrn.session_date || '—'}</span>
+      <span><strong>Week type:</strong> ${lrn.week_type_used || '—'}</span>
+      <span><strong>Next run:</strong> Week ${lrn.next_week_type || '—'}</span>
+      ${lrn.patterns?.length ? `<span><strong>Top pattern:</strong> ${escapeHTML(lrn.patterns[0])}</span>` : ''}
+    </div>` : '';
+
+  const topPicksHtml = topPicks.length ? `
+    <div class="section-title">Top Picks</div>
+    <div class="top-picks">
+      ${topPicks.map((s,i) => renderTopPick(s,i)).join('')}
+    </div>` : '';
+
+  const controlsHtml = `
+    <div class="controls">
+      <input type="search" id="search" placeholder="Search by name, location, story…" oninput="filterCards()">
+      <select id="filter-conf" onchange="filterCards()">
+        <option value="">All confidence</option>
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+      </select>
+      <select id="filter-source" onchange="filterCards()">
+        <option value="">All sources</option>
+        <option value="reddit">Reddit</option>
+        <option value="youtube">YouTube</option>
+        <option value="news">News</option>
+        <option value="journal">Journal</option>
+        <option value="forum">Forum</option>
+      </select>
+      <span class="count" id="count">${stories.length} stories</span>
+    </div>`;
+
+  const cardsHtml = stories.length
+    ? `<div class="grid" id="grid">${stories.map(renderCard).join('')}</div>`
+    : `<div class="empty">No stories found yet. The first run will populate this on Monday.</div>`;
+
+  app.innerHTML = runInfoHtml + topPicksHtml +
+    `<div class="section-title">All Stories</div>` +
+    controlsHtml + cardsHtml;
+}
+
+function filterCards() {
+  const q = document.getElementById('search')?.value.toLowerCase() || '';
+  const conf = document.getElementById('filter-conf')?.value || '';
+  const src = document.getElementById('filter-source')?.value || '';
+  const cards = document.querySelectorAll('.card');
+  let visible = 0;
+  cards.forEach(card => {
+    const name = (card.dataset.name || '').toLowerCase();
+    const text = card.innerText.toLowerCase();
+    const matchQ = !q || text.includes(q);
+    const matchConf = !conf || card.dataset.conf === conf;
+    const matchSrc = !src || card.dataset.source === src;
+    const show = matchQ && matchConf && matchSrc;
+    card.style.display = show ? '' : 'none';
+    if (show) visible++;
+  });
+  const countEl = document.getElementById('count');
+  if (countEl) countEl.textContent = visible + ' stories';
+}
+
+async function init() {
+  try {
+    const [storiesData, lrn] = await Promise.all([
+      fetchJSON('data/results/all_stories.json').catch(() => ({ stories: [] })),
+      fetchJSON('data/learnings.json').catch(() => null)
+    ]);
+
+    allStories = storiesData.stories || [];
+    learnings = lrn;
+
+    if (allStories.length === 0) {
+      document.getElementById('app').innerHTML = `
+        <div class="run-info">
+          <span>No stories yet — the first run will happen on Monday at 9am PT.</span>
+        </div>
+        <div class="empty">Stories will appear here automatically after the first weekly run.</div>`;
+      document.getElementById('header-stats').innerHTML = '<span>Awaiting first run</span>';
+      return;
+    }
+
+    render(allStories, lrn);
+  } catch(e) {
+    document.getElementById('app').innerHTML = `
+      <div class="error">Failed to load stories: ${escapeHTML(e.message)}<br>
+      Make sure the GitHub repo is public and the data files exist.</div>`;
+  }
+}
+
+init();
+</script>
+</body>
+</html>

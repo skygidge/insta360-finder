@@ -235,6 +235,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 8px;
+  }
+
+  .card .source-row .source-links {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .card .source-row a.archive-link {
+    font-size: 11px;
+    opacity: 0.55;
   }
 
   .source-tag {
@@ -423,7 +435,10 @@ function renderCard(s) {
     ${s.why_it_matters ? `<p class="why">${escapeHTML(s.why_it_matters)}</p>` : ''}
     <div class="source-row">
       <span class="source-tag">${escapeHTML(sourceLabel(s.source_type))}</span>
-      ${s.source_link ? `<a href="${escapeHTML(s.source_link)}" target="_blank" rel="noopener">View source →</a>` : ''}
+      <span class="source-links">
+        ${s.source_link ? `<a href="${escapeHTML(s.source_link)}" target="_blank" rel="noopener">View source →</a>` : ''}
+        ${s.source_link ? `<a href="https://web.archive.org/web/*/${s.source_link}" target="_blank" rel="noopener" class="archive-link">Archive ↗</a>` : ''}
+      </span>
     </div>`;
 
   const contactHtml = (() => {

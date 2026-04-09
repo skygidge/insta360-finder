@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-07",
-  "next_week_type": "B",
+  "last_updated": "2026-04-09",
+  "next_week_type": "C",
   "week_rotation": {
     "A": "Reddit + YouTube",
     "B": "News articles + scientific journals",
@@ -10,32 +10,46 @@
     "productive": [
       "insta360 Sundance 2025 documentary filmmaker cinematographer used camera",
       "\"2000 meters to Andriivka\" documentary filmmaker director insta360 Sundance 2025",
-      "Frogfish Photography Nick Caroline full name conservation underwater photographer",
       "Think Films insta360 GO3 ultra endurance documentary filmmaking breaking new ground",
-      "\"Magic Farm\" Sundance 2025 insta360 filmmaker director",
-      "Ben Forsyth director Think Films documentary Ultra Abdullah Zeinab insta360"
+      "Ben Forsyth director Think Films documentary Ultra Abdullah Zeinab insta360",
+      "insta360 X4 whale underwater footage videographer dock fishing line 2025",
+      "insta360 underwater conservation rescue whale entanglement 2025 2026",
+      "insta360 academic research fieldwork peer reviewed journal 2025",
+      "\"insta360 X3\" OR \"insta360 X4\" site:pubmed.ncbi.nlm.nih.gov OR site:scholar.google.com",
+      "site:petapixel.com insta360 2026 underwater photographer",
+      "site:techeblog.com insta360 2025"
     ],
     "not_productive": [
       "site:reddit.com insta360 documentary expedition research 2025 (zero results)",
       "site:reddit.com insta360 wildlife science project film 2025 (zero results)",
       "\"filmed with insta360\" OR \"shot on insta360\" documentary 2025 (only returns Insta360 own blog)",
-      "reddit.com insta360 X4 cave exploration rescue mountain rescue (no direct Reddit posts)"
+      "reddit.com insta360 X4 cave exploration rescue mountain rescue (no direct Reddit posts)",
+      "site:indiewire.com insta360 (all results 403 Forbidden on WebFetch)",
+      "site:nofilmschool.com insta360 (all results 403 Forbidden)",
+      "site:ymcinema.com insta360 (all results 403 Forbidden - listed as productive in Week A but now blocking WebFetch)",
+      "site:natgeotv.com insta360 OR site:bbc.co.uk insta360 (no useful results)"
     ]
   },
   "source_reliability": {
     "high": [
-      "ymcinema.com (Sundance camera roundups)",
-      "indiewire.com (Sundance camera surveys)",
-      "PBS/FRONTLINE press releases"
+      "ymcinema.com (Sundance camera roundups) — CAVEAT: now returning 403 on WebFetch; use search result summaries only",
+      "indiewire.com (Sundance camera surveys) — CAVEAT: 403 on WebFetch; use search snippets",
+      "peer-reviewed journals via PMC/Google Scholar (explicit product names in methods sections)",
+      "techeblog.com (headlines often include full product names, no 403 issues)"
     ],
     "medium": [
+      "BC/Canadian local newspapers (very specific about camera models in wildlife/nature stories)",
+      "My Modern Met (aggregates interesting use-case stories with product names)",
+      "Green Matters / Upworthy (conservation angle stories, accessible)",
       "scubaverse.com (diving niche community)",
       "LinkedIn organic posts with #insta360 hashtag",
-      "divemagazine.com (specialist publication)"
+      "divemagazine.com (specialist publication) — some 403 issues"
     ],
     "low": [
       "General Reddit site: searches (site: operator ineffective via web search API)",
-      "Direct site:youtube.com searches (return no useful results)"
+      "Direct site:youtube.com searches (return no useful results)",
+      "NatGeo, BBC, Guardian — rarely name camera brands in accessible content",
+      "Most major photo/tech publications (403 on WebFetch) — must rely on search snippets"
     ]
   },
   "discovered_sources": [
@@ -47,7 +61,15 @@
     "benforsyth.com",
     "frogfishphotography.com",
     "sharks4kids.com",
-    "documentary.org"
+    "documentary.org",
+    "techeblog.com",
+    "mymodernmet.com",
+    "albernivalleynews.com",
+    "comoxvalleyrecord.com",
+    "kelownacapitalnews.com",
+    "rendezvousdiving.com",
+    "jkowitzphotography.com",
+    "xiaolin.sun research - Humanities and Social Sciences Communications"
   ],
   "patterns": [
     "Sundance/film-festival camera survey articles (IndieWire, ymcinema.com) are the single most productive source for finding prestige-level Insta360 usage — search every cycle",
@@ -55,7 +77,13 @@
     "LinkedIn organic posts with #insta360 and #documentary hashtags reveal in-development projects not yet on Insta360's radar",
     "Conservation organizations (Shark Trust, Sharks4Kids) often work with Insta360 cameras but are never featured by Insta360 — rich hunting ground",
     "Reddit site: searches return zero results via standard web search — visit Reddit directly or use Pushshift/Google index searches instead",
-    "War journalism / documentary journalism is an entirely untapped Insta360 story category with very high prestige potential"
+    "War journalism / documentary journalism is an entirely untapped Insta360 story category with very high prestige potential",
+    "Local/regional newspapers (especially Canadian, Australian) often name camera brands specifically in nature/wildlife stories — high quality source",
+    "Google Scholar / PMC searches for 'insta360' in academic papers yield explicit product names in methods sections — very high confidence verification",
+    "TechEBlog headlines consistently include full product model names (e.g. 'Insta360 X4') — useful quick verification source",
+    "Most major photo/tech/news publications block WebFetch (403). Plan to verify via search result snippets. Require 2+ independent summaries before including.",
+    "Conservation/rescue stories where the camera plays a functional role (not just filming) are especially compelling narratives",
+    "Academic researchers in digital humanities, archaeology, ecology are an untapped segment — search journals directly for explicit model names"
   ],
   "feedback": [
     {
@@ -96,15 +124,52 @@
     {
       "date": "2026-04-07",
       "overall": "Run quality too low. 3 of 5 stories were false positives or stale. Agent must be more skeptical and verify each candidate with a second search before including."
+    },
+    {
+      "date": "2026-04-09",
+      "story": "Peter Mieras",
+      "verdict": "PROPOSED",
+      "reason": "Insta360 X4 explicitly named in 6+ independent sources. Accidental viral footage of humpback whale. High confidence.",
+      "lesson": "Local/regional news articles often name camera models precisely in wildlife/nature stories — valuable verification source."
+    },
+    {
+      "date": "2026-04-09",
+      "story": "John Kowitz",
+      "verdict": "PROPOSED (needs human verification)",
+      "reason": "Insta360 brand confirmed in multiple search summaries but direct article access blocked (403). Model unconfirmed.",
+      "lesson": "When direct access is blocked, require 3+ independent search summaries naming brand before including. Flag for human verification."
+    },
+    {
+      "date": "2026-04-09",
+      "story": "Xiaolin Sun",
+      "verdict": "PROPOSED (needs human verification)",
+      "reason": "Insta360 X3 explicitly named in PMC snippet from peer-reviewed paper. Only one directly accessible source. Academic researcher, not typical creator.",
+      "lesson": "Academic papers in Nature-portfolio journals are high-quality sources when the product name appears in the methods section. But verify with institutional access."
+    },
+    {
+      "date": "2026-04-09",
+      "story": "Emma Burrows (AP journalist, Greenland)",
+      "verdict": "DROPPED",
+      "reason": "Camera described as '$700 360 camera' in accessible sources — brand not explicitly confirmed as Insta360.",
+      "lesson": "Price range matching is not sufficient. Must find explicit 'Insta360' brand name."
+    },
+    {
+      "date": "2026-04-09",
+      "story": "Ronan Corrigan (LifeHack, SXSW 2025)",
+      "verdict": "DROPPED",
+      "reason": "SXSW camera survey mentioned 'Insta360 lenses' but direct article access failed (403). Could not confirm from accessible source.",
+      "lesson": "Applying the no-inference rule correctly: dropping when only one blocked source mentions the brand."
     }
   ],
   "suggestions_for_next_run": [
-    "Week B: Search Google Scholar for 'insta360' in marine biology, ecology, archaeology, volcanology journals 2024-2026",
-    "Week B: Search BBC.com, Guardian, Wired, NatGeo for 'insta360' mentioned by scientists, researchers, or documentary journalists",
-    "Follow Sundance 2026 camera survey articles as soon as they publish (January 2026 coverage may still be indexable)",
-    "Follow up on 'Ultra' documentary (Ben Forsyth/Abdullah Zeinab) — check if it has been released or submitted to festivals",
-    "Search for 'OneOcean360' once the Shark Trust film is ready in autumn 2025/2026",
-    "Explore SXSW 2025 and Tribeca 2025 documentary camera surveys for more Insta360 usage",
-    "Look for Insta360 usage in academic field research: 'insta360 fieldwork university study 2025 site:edu'"
+    "Week C: Search r/insta360, r/scuba, r/diving, r/documentary for recent project posts mentioning Insta360 by model name",
+    "Week C: Search Vimeo for 'insta360' tagged videos uploaded in 2025-2026 by filmmakers not in exclusion list",
+    "Week C: Search DPReview forums and Wetpixel forums for Insta360 underwater use cases in conservation/science",
+    "Week C: Search SXSW 2025 and Tribeca 2025 documentary camera surveys",
+    "Week C: Search for 'Insta360' on nofilmschool.com community forums (not the blocked articles)",
+    "Follow up on Xiaolin Sun's research group — check if co-author Eugene Ch'ng has published further Insta360 work",
+    "Investigate marine biology / ecology conferences for Insta360 poster presentations",
+    "Search for John Kowitz PetaPixel article directly to confirm model and get exact quote for outreach",
+    "Search 'insta360 archaeology fieldwork site survey 2025 2026' — unexplored academic niche"
   ]
 }

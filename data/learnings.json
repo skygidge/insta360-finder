@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-09",
-  "next_week_type": "C",
+  "last_updated": "2026-04-10",
+  "next_week_type": "A",
   "week_rotation": {
     "A": "Reddit + YouTube",
     "B": "News articles + scientific journals",
@@ -8,48 +8,51 @@
   },
   "query_performance": {
     "productive": [
-      "insta360 Sundance 2025 documentary filmmaker cinematographer used camera",
-      "\"2000 meters to Andriivka\" documentary filmmaker director insta360 Sundance 2025",
-      "Think Films insta360 GO3 ultra endurance documentary filmmaking breaking new ground",
-      "Ben Forsyth director Think Films documentary Ultra Abdullah Zeinab insta360",
-      "insta360 X4 whale underwater footage videographer dock fishing line 2025",
-      "insta360 underwater conservation rescue whale entanglement 2025 2026",
-      "insta360 academic research fieldwork peer reviewed journal 2025",
-      "\"insta360 X3\" OR \"insta360 X4\" site:pubmed.ncbi.nlm.nih.gov OR site:scholar.google.com",
-      "site:petapixel.com insta360 2026 underwater photographer",
-      "site:techeblog.com insta360 2025"
+      "site:scubaverse.com insta360 2025 OR 2026 underwater photographer filmmaker (found OneOcean360 lead)",
+      "insta360 VR therapy rehabilitation PTSD mental health 2025 2026 researcher (found Olga Kukharuk)",
+      "\"OneOcean360\" shark story insta360 X4 filmmaker director underwater conservation (confirmed key details)",
+      "Nick Robertson-Brown Caroline Robertson-Brown frogfish photography insta360 X4 OneOcean360 (confirmed identity)",
+      "\"Kukharuk\" OR \"Tkalich\" OR \"Kamash\" insta360 titan VR therapy Ukraine veterans 360 video PMC (confirmed 3+ sources)",
+      "fddb.org one ocean a shark story fulldome release year (confirmed film completion 2025)",
+      "insta360 \"used an insta360\" OR \"shot with insta360\" conservation researcher 2025 (found shark trust project)",
+      "insta360 SXSW 2025 documentary filmmaker camera used (found Sundance survey articles for future runs)"
     ],
     "not_productive": [
-      "site:reddit.com insta360 documentary expedition research 2025 (zero results)",
-      "site:reddit.com insta360 wildlife science project film 2025 (zero results)",
-      "\"filmed with insta360\" OR \"shot on insta360\" documentary 2025 (only returns Insta360 own blog)",
-      "reddit.com insta360 X4 cave exploration rescue mountain rescue (no direct Reddit posts)",
-      "site:indiewire.com insta360 (all results 403 Forbidden on WebFetch)",
-      "site:nofilmschool.com insta360 (all results 403 Forbidden)",
-      "site:ymcinema.com insta360 (all results 403 Forbidden - listed as productive in Week A but now blocking WebFetch)",
-      "site:natgeotv.com insta360 OR site:bbc.co.uk insta360 (no useful results)"
+      "site:vimeo.com insta360 documentary 2025 short film (only official Insta360 channel results)",
+      "insta360 SXSW 2025 documentary camera used (no confirmed Insta360 use accessible from snippets)",
+      "insta360 archaeology fieldwork excavation 2025 2026 (no results)",
+      "insta360 glaciology climate science research 2025 2026 (no results)",
+      "insta360 mountain rescue cave rescue emergency services 2025 2026 (no results)",
+      "site:nofilmschool.com insta360 filmmaker 2025 (only product reviews/sponsored)",
+      "ymcinema.com insta360 Sundance Hot Docs filmmaker (403 on WebFetch, no confirmed name from snippets)",
+      "insta360 caving spelunking cave exploration 2025 2026 (no organic user stories found)",
+      "insta360 ornithology birds wildlife research filmmaker documentary 2025 2026 (no new leads)",
+      "insta360 paraathlete adaptive sports filmmaker documentary 2025 2026 (no Insta360 connection confirmed)",
+      "reddit insta360 X4 OR X5 wildlife conservation expedition documentary filmmaker project 2025 (no Reddit results)"
     ]
   },
   "source_reliability": {
     "high": [
-      "ymcinema.com (Sundance camera roundups) — CAVEAT: now returning 403 on WebFetch; use search result summaries only",
-      "indiewire.com (Sundance camera surveys) — CAVEAT: 403 on WebFetch; use search snippets",
-      "peer-reviewed journals via PMC/Google Scholar (explicit product names in methods sections)",
-      "techeblog.com (headlines often include full product names, no 403 issues)"
+      "scubaverse.com (conservation diving niche — explicitly names camera models in project announcements)",
+      "sharktrust.org (conservation org — names camera model in project pages)",
+      "fddb.org (Fulldome Database — confirms if fulldome films are completed/released with year and producer)",
+      "peer-reviewed journals via PMC/Google Scholar (methods sections explicitly name camera models)",
+      "ymcinema.com (Sundance/festival camera surveys — CAVEAT: still 403 on WebFetch; use search snippets only)",
+      "techeblog.com (headlines include full product model names — useful quick verification)"
     ],
     "medium": [
-      "BC/Canadian local newspapers (very specific about camera models in wildlife/nature stories)",
-      "My Modern Met (aggregates interesting use-case stories with product names)",
-      "Green Matters / Upworthy (conservation angle stories, accessible)",
-      "scubaverse.com (diving niche community)",
-      "LinkedIn organic posts with #insta360 hashtag",
-      "divemagazine.com (specialist publication) — some 403 issues"
+      "PubMed/Tandfonline search snippets (confirm paper details without full article access)",
+      "RocketReach (email verification for academics — use with caution, verify before outreach)",
+      "TechEBlog (wildlife/adventure Insta360 use cases with specific model names)",
+      "Digital Camera World (has Insta360 tag but mostly product reviews)",
+      "BC/Canadian local newspapers (name camera models precisely in wildlife/nature stories)"
     ],
     "low": [
-      "General Reddit site: searches (site: operator ineffective via web search API)",
-      "Direct site:youtube.com searches (return no useful results)",
-      "NatGeo, BBC, Guardian — rarely name camera brands in accessible content",
-      "Most major photo/tech publications (403 on WebFetch) — must rely on search snippets"
+      "site:vimeo.com (only official Insta360 channel shows up in search)",
+      "site:indiewire.com (403 on WebFetch)",
+      "site:nofilmschool.com (403 on WebFetch — articles about Insta360 are mostly sponsored/product news)",
+      "Reddit site: operator (still not returning useful results via web search API)",
+      "General 'insta360 filmmaker documentary' searches (return Insta360's own content first)"
     ]
   },
   "discovered_sources": [
@@ -69,21 +72,29 @@
     "kelownacapitalnews.com",
     "rendezvousdiving.com",
     "jkowitzphotography.com",
-    "xiaolin.sun research - Humanities and Social Sciences Communications"
+    "xiaolin.sun research - Humanities and Social Sciences Communications",
+    "fddb.org (Fulldome Database — confirms dome film completions)",
+    "real-immersive.realideas.org (Plymouth immersive tech company)",
+    "counteroffensive.news (covers Ukraine wartime tech innovation)",
+    "tech.eu (European startup/tech coverage)",
+    "artherapyforce.com.ua (Ukrainian VR therapy organisation)",
+    "pmc.ncbi.nlm.nih.gov/articles/PMC12016277 (Kukharuk VR therapy study)"
   ],
   "patterns": [
-    "Sundance/film-festival camera survey articles (IndieWire, ymcinema.com) are the single most productive source for finding prestige-level Insta360 usage — search every cycle",
+    "Sundance/film-festival camera survey articles (IndieWire, ymcinema.com) are the single most productive source for prestige-level Insta360 usage — search every cycle",
     "Niche diving community sites (Scubaverse, DIVE Magazine, DivePhotoGuide) reliably surface organic Insta360 underwater conservation stories",
-    "LinkedIn organic posts with #insta360 and #documentary hashtags reveal in-development projects not yet on Insta360's radar",
-    "Conservation organizations (Shark Trust, Sharks4Kids) often work with Insta360 cameras but are never featured by Insta360 — rich hunting ground",
-    "Reddit site: searches return zero results via standard web search — visit Reddit directly or use Pushshift/Google index searches instead",
-    "War journalism / documentary journalism is an entirely untapped Insta360 story category with very high prestige potential",
-    "Local/regional newspapers (especially Canadian, Australian) often name camera brands specifically in nature/wildlife stories — high quality source",
+    "Fulldome Database (fddb.org) is an underexplored resource — any Insta360-shot dome film appears here with release date and producer",
+    "Conservation organisations (Shark Trust, Sharks4Kids) often name cameras in project pages — worth monitoring regularly",
+    "Academic health/psychology journals using Insta360 in clinical VR interventions are a completely untapped story category",
+    "Ukrainian wartime innovation sector uses Insta360 professional cameras (Titan) in humanitarian contexts — rich hunting ground",
+    "PMC open-access articles consistently return 403 on WebFetch (suspected bot-detection) — rely on search snippets, flag for human review",
+    "Fulldome/planetarium film circuit is a new distribution format for Insta360-shot content — monitor fulldome announcements",
+    "Reddit still returns no useful results via site: operator — direct Reddit visit remains the only option",
+    "Insta360 community stories page is separate from creator stories — check both for exclusion before including a story",
+    "Local/regional newspapers (especially Canadian, Australian) often name camera brands specifically in nature/wildlife stories",
     "Google Scholar / PMC searches for 'insta360' in academic papers yield explicit product names in methods sections — very high confidence verification",
-    "TechEBlog headlines consistently include full product model names (e.g. 'Insta360 X4') — useful quick verification source",
-    "Most major photo/tech/news publications block WebFetch (403). Plan to verify via search result snippets. Require 2+ independent summaries before including.",
     "Conservation/rescue stories where the camera plays a functional role (not just filming) are especially compelling narratives",
-    "Academic researchers in digital humanities, archaeology, ecology are an untapped segment — search journals directly for explicit model names"
+    "War journalism / humanitarian aid is an entirely untapped Insta360 story category with very high prestige potential"
   ],
   "feedback": [
     {
@@ -162,14 +173,62 @@
     }
   ],
   "suggestions_for_next_run": [
-    "Week C: Search r/insta360, r/scuba, r/diving, r/documentary for recent project posts mentioning Insta360 by model name",
-    "Week C: Search Vimeo for 'insta360' tagged videos uploaded in 2025-2026 by filmmakers not in exclusion list",
-    "Week C: Search DPReview forums and Wetpixel forums for Insta360 underwater use cases in conservation/science",
-    "Week C: Search SXSW 2025 and Tribeca 2025 documentary camera surveys",
-    "Week C: Search for 'Insta360' on nofilmschool.com community forums (not the blocked articles)",
-    "Follow up on Xiaolin Sun's research group — check if co-author Eugene Ch'ng has published further Insta360 work",
-    "Investigate marine biology / ecology conferences for Insta360 poster presentations",
-    "Search for John Kowitz PetaPixel article directly to confirm model and get exact quote for outreach",
-    "Search 'insta360 archaeology fieldwork site survey 2025 2026' — unexplored academic niche"
-  ]
+    "Week A: Search r/insta360 directly for recent project posts mentioning Insta360 by model name",
+    "Week A: Search YouTube for 'insta360 X4' OR 'insta360 X5' in documentary/conservation video descriptions 2025",
+    "Week A: Try 'r/documentary insta360' and 'r/scuba insta360' via Google",
+    "Week A: Search for OneOcean360 Instagram (@oneocean360) for any further filmmaker credits",
+    "Verify Nick & Caroline Robertson-Brown source quote by directly opening scubaverse.com/filming-360-in-the-bahamas/ in a browser",
+    "Verify Olga Kukharuk PMC article directly at pmc.ncbi.nlm.nih.gov/articles/PMC12016277/ to confirm exact camera model quote",
+    "Explore counteroffensive.news and tech.eu for more Ukraine/Eastern Europe wartime Insta360 use cases",
+    "Search fddb.org for other Insta360-shot dome films that might have interesting creators",
+    "Search for 'Aspichi Foundation Ukraine insta360' for more leads from Kukharuk's collaborators",
+    "Investigate if Kateryna Tkalich or Nadia Kamash (Kukharuk co-authors) have additional Insta360 work",
+    "Search r/insta360, r/scuba, r/diving, r/documentary for recent project posts mentioning Insta360 by model name",
+    "Search Vimeo for 'insta360' tagged videos uploaded in 2025-2026 by filmmakers not in exclusion list",
+    "Search DPReview forums and Wetpixel forums for Insta360 underwater use cases in conservation/science",
+    "Search SXSW 2025 and Tribeca 2025 documentary camera surveys — IndieWire article exists (403 to WebFetch)"
+  ],
+  "session_date": "2026-04-10",
+  "week_type_used": "C",
+  "productive_queries": [
+    "site:scubaverse.com insta360 2025 OR 2026 underwater photographer filmmaker",
+    "insta360 VR therapy rehabilitation PTSD mental health 2025 2026 researcher",
+    "\"OneOcean360\" shark story insta360 X4 filmmaker director underwater conservation",
+    "\"Kukharuk\" OR \"Tkalich\" OR \"Kamash\" insta360 titan VR therapy Ukraine veterans 360 video PMC",
+    "fddb.org fulldome one ocean a shark story release year"
+  ],
+  "unproductive_queries": [
+    "site:vimeo.com insta360 documentary 2025 short film",
+    "insta360 SXSW 2025 documentary filmmaker camera used",
+    "insta360 archaeology fieldwork 2025 2026",
+    "insta360 glaciology climate science 2025 2026",
+    "insta360 mountain rescue cave rescue 2025 2026",
+    "ymcinema.com insta360 Sundance 2025 Hot Docs filmmaker"
+  ],
+  "productive_sources": [
+    "scubaverse.com",
+    "sharktrust.org",
+    "fddb.org",
+    "pmc.ncbi.nlm.nih.gov (via search snippets)"
+  ],
+  "blocked_sources": [
+    "scubaverse.com (403 on WebFetch — publicly accessible to humans)",
+    "sharktrust.org (403 on WebFetch — publicly accessible to humans)",
+    "pmc.ncbi.nlm.nih.gov (403 on WebFetch — open access, suspected bot-detection)",
+    "pubmed.ncbi.nlm.nih.gov (403 on WebFetch)",
+    "real-immersive.realideas.org (403 on WebFetch)",
+    "fddb.org (403 on WebFetch — publicly accessible to humans)",
+    "ymcinema.com (403 on WebFetch)",
+    "indiewire.com (403 on WebFetch)",
+    "nofilmschool.com (403 on WebFetch)"
+  ],
+  "new_domains_found": [
+    "fddb.org",
+    "real-immersive.realideas.org",
+    "counteroffensive.news",
+    "tech.eu",
+    "artherapyforce.com.ua"
+  ],
+  "stories_found_count": 2,
+  "high_confidence_count": 1
 }

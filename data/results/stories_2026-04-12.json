@@ -1,0 +1,23 @@
+{
+  "run_date": "2026-04-12",
+  "week_type": "A",
+  "stories": [
+    {
+      "name": "Joseph B. Schulz",
+      "location": "Stanford, California, USA",
+      "story_summary": "Radiation oncologist at Stanford University School of Medicine who led a pilot study using the Insta360 X3 360-degree camera to photograph critical areas of the radiation oncology department — including reception, waiting rooms, consultation rooms, CT simulation suite, treatment planning room, and linear accelerator vaults. The team built an interactive panoramic virtual tour accessible via Stanford's MyHealth patient portal, allowing cancer patients scheduled for external beam radiation therapy to familiarise themselves with the treatment environment before their first appointment. A randomised controlled trial with 68 patients (33 control, 35 experimental) evaluated the tour's feasibility. Published in Frontiers in Oncology on 30 May 2025.",
+      "product_used": "Insta360 X3",
+      "why_it_matters": "First Stanford-published clinical trial to use an Insta360 consumer camera as a clinical tool — demonstrating that a $400 action camera can help reduce anxiety in cancer patients. Opens an entirely new healthcare sector conversation for Insta360, complementing existing academic stories (Olga Kukharuk's PTSD therapy, Xiaolin Sun's cultural preservation). Demonstrates Insta360's value in a highly credible, hospital-level institutional context at one of the world's most prestigious medical institutions.",
+      "source_link": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1568405/full",
+      "source_quote": "High-resolution panoramic images of these locations were captured using the Insta360 X3 360-degree camera (Insta360, Shenzhen, Guangdong, China).",
+      "source_type": "peer-reviewed academic journal (Frontiers in Oncology, open-access, Volume 15, May 2025)",
+      "confidence": "Medium",
+      "run_date": "2026-04-12",
+      "human_reviewed": false,
+      "verification_note": "Insta360 X3 explicitly named in methods section per search snippet. Paper published May 30, 2025. Authors: Joseph B. Schulz, Piotr Dubrowski, Xi Ling, Yufan Wu, Yushen Qian, Lynn Million, Carol M. Marquez, Amy Yu — all at Stanford University Radiation Oncology. Source URL returns 403 on WebFetch (bot-detection on open-access journal, not a paywall — accessible to humans). PMC mirror: https://pmc.ncbi.nlm.nih.gov/articles/PMC12162308/ also returns 403 for bots. Flag for human verification.",
+      "outreach_email": "jschulz@stanford.edu",
+      "outreach_instagram": "",
+      "outreach_draft": "Subject: Your Insta360 X3 research — Stanford just quietly showed what cameras can do for cancer care\n\nDear Dr. Schulz,\n\nI'm [Name] from Insta360's creator partnerships team. Your team's paper in Frontiers in Oncology — \"The feasibility of a patient oriented interactive panoramic virtual tour for external beam radiation therapy\" — caught our attention, and we wanted to reach out.\n\nYou used an Insta360 X3 to photograph your radiation oncology department and give cancer patients a virtual walkthrough before their first treatment. That's one of the most practical and human applications of our camera we've ever seen. The idea that a consumer action camera can help reduce anxiety in a clinical oncology setting is remarkable.\n\nWe'd love to feature your work in our Creator Stories blog — not as a technology showcase, but as a story about compassionate care and creative problem-solving. Your team's approach could inspire hospitals and clinics worldwide to try the same.\n\nWould you be open to a short conversation with our team?\n\nWith great respect,\n[Name]\nInsta360 Creator Partnerships"
+    }
+  ]
+}

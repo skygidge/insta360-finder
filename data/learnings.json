@@ -1,57 +1,109 @@
 {
-  "session_date": "2026-04-27",
+  "session_date": "2026-04-28",
   "week_type_used": "C",
   "next_week_type": "A",
-  "stories_found_count": 5,
-  "high_confidence_count": 4,
+  "stories_found_count": 3,
+  "high_confidence_count": 0,
   "productive_queries": [
-    "r/Insta360 top of year — JSON API listing surfaced 30 high-engagement first-person posts with explicit product naming",
-    "r/scuba search.json q=insta360 — 20 organic mentions including underwater adventure context",
-    "Reddit user about.json — public_description field reveals creator profile/handles (e.g. rdrjrh = 'flyandfoto' on IG/TikTok)",
-    "Reddit individual post .json append — full self-text accessible without WebFetch"
+    "'Gallego Abellan' 'Teruel Piñol' frontiers communication 2024 immersive documentary migrants insta360 pro",
+    "pubmed 39615621 'Digital Surgical Operating Theatre Tour' authors institution insta360",
+    "'360 Video as a Learning Tool for Filmmaking' 'filmschool360' ERIC EJ1455920 authors university 2024",
+    "'insta360' hospital patient VR tour education training 2025 new published OR announced",
+    "'insta360' 2025 published study OR paper therapy OR treatment OR clinical OR patient OR hospital"
   ],
   "unproductive_queries": [
-    "r/documentary search for insta360 — KeyError, very low signal",
-    "r/diving — only 3 posts ever mentioning insta360, all gear questions"
+    "site:nofilmschool.com insta360 filmmaker documentary 2025",
+    "site:filmmakermagazine.com insta360 2025",
+    "site:vimeo.com insta360 documentary 2024 2025",
+    "site:dpreview.com insta360 documentary filmmaker 2025",
+    "site:reddit.com r/Filmmakers OR r/videography OR r/documentaryfilmmaking insta360 2025",
+    "site:reddit.com/r/insta360 documentary expedition research conservation 2025",
+    "'insta360 X4' OR 'insta360 X5' wildlife conservation ecology research 2025 filmmaker",
+    "insta360 architecture virtual tour heritage preservation 2025",
+    "insta360 veterinary forensic climate science expedition 2025 researcher",
+    "insta360 spelunking cave exploration documentary 2025",
+    "insta360 cineasta documentalista aventura expedition 2025 filmmaker espanol",
+    "insta360 scuba freediving underwater cinematography filmmaker creator 2025",
+    "insta360 adventure sports athlete rock climbing mountaineering 2025 interview",
+    "insta360 skydiver BASE jumper wingsuit adventure athlete 2025 interview profile",
+    "insta360 mountain rescue emergency services documentary 2025"
   ],
   "productive_sources": [
-    "reddit.com/r/Insta360 (curl + UA, by far the highest-yield single source this run — 5 of 5 stories)",
-    "reddit.com/r/scuba (curl + UA, useful for underwater creators with Insta360)",
-    "Reddit user about.json + submitted.json (excellent for creator verification and cross-platform handles)"
+    "frontiersin.org (search snippets reliable for Insta360 citations in communication/journalism papers — new field this run)",
+    "pubmed.ncbi.nlm.nih.gov (PMID search snippets for author info)",
+    "eric.ed.gov (ERIC educational database — new source this run, found Millea paper)",
+    "researchgate.net (search snippets for paper author details)"
   ],
   "blocked_sources": [
-    "WebFetch on reddit.com still 403 (use curl with User-Agent header — works perfectly)",
-    "All previously listed academic publishers (frontiersin, pmc, cureus, etc.) remain 403 on WebFetch"
+    "frontiersin.org (403 WebFetch — bot detection)",
+    "tandfonline.com (403 WebFetch)",
+    "sciencedirect.com (403 WebFetch)",
+    "pubmed.ncbi.nlm.nih.gov (403 WebFetch)",
+    "scuba.com (403 WebFetch)",
+    "digitalcameraworld.com (403 WebFetch)",
+    "raulgaab.com (403 WebFetch)",
+    "daniellemillea.wordpress.com (403 WebFetch)",
+    "valentinbelleville.com (403 WebFetch)",
+    "wildfilmmaker.net (403 WebFetch)",
+    "blog.nomono.co (403 WebFetch)"
   ],
   "confirmed_exclusions_this_run": [
-    "@sailgp — official corporate SailGP account; partnership content, not a creator story",
-    "rdrjrh starlapse posts cross-checked against community-stories blog — not previously featured"
+    "Rory Sheldon ('The African Wild') — already featured on Insta360 enterprise blog",
+    "Lance Fenderson (adaptive racing driver) — already an official Insta360 partnership per Digital Camera World",
+    "Telmo dos Reis ('Close Encounters') — 2020 project, before Oct 2024 cutoff",
+    "Laurent Portes ('Ivohiboro' Madagascar documentary) — no confirmed Insta360 use",
+    "Robbie Shone (cave photography) — no confirmed Insta360 use"
   ],
-  "discovered_sources": [
-    "Reddit JSON API via curl + custom User-Agent — definitive method for Insta360 story discovery; should be the Week A primary spine going forward",
-    "Reddit user profile public_description field — surfaces external social handles (IG/TikTok) needed for outreach"
+  "new_domains_found": [
+    "eric.ed.gov (ERIC educational research database — useful for education papers citing Insta360 in methods sections)",
+    "filmschool360.com (free online filmmaking school built with Insta360 cameras — unique educational angle)",
+    "Frontiers in Communication (journalism/communication studies domain — first non-medical Frontiers paper in dataset)"
   ],
-  "new_domains_found": [],
   "patterns": [
-    "Week C with curl-based Reddit access yielded 5 organic creator stories — best single-week count to date and broke the medical/academic-only pattern of recent runs",
-    "Insta360 X5 (released 2025) is now the dominant model in organic Reddit content; X4 Air and Ace Pro 2 also appearing",
-    "Maker / DIY-engineering stories (open-source remote, 3D-printed buoy, exoskeleton hike) are an underexploited content vertical for Insta360's blog",
-    "Astrophotography / starlapse is a distinct emerging vertical driven by the X5's larger sensor — multiple 200+ upvote posts",
-    "First-person Reddit posts with the creator naming the model in their own text remain the highest-confidence source class"
+    "Academic papers remain the only reliable source for verifiable Insta360 creator stories — now confirmed across 7+ consecutive runs",
+    "This run successfully found stories in entirely new domains: journalism (Gallego Abellán, Spain) and film education (Millea, UK) — first non-medical/non-marine stories in multiple runs",
+    "Week C (niche communities) searches were entirely unproductive across all platforms: DPReview, Vimeo, Filmmaker Magazine, No Film School, Reddit, ScubaBoard, non-English searches",
+    "Older Insta360 models (Pro, Pro 2, One X) continue to appear in academic papers; no stories found using current X4/X5 models in research contexts",
+    "Confirm search '[name] insta360' continues to fail for academic researchers — Insta360 use is only verifiable via paper methods sections",
+    "Week C specifically failed for creator discovery; Week A (Reddit/YouTube) and Week B (academic) searches are more productive",
+    "Social justice journalism angle (Gallego Abellán) is entirely new territory — could open a new category of stories",
+    "Film education angle (Millea) is entirely new territory — could lead to more educator stories"
   ],
   "suggestions_for_next_run": [
-    "Week A: continue Reddit deep-dive — try r/videography, r/Filmmakers, r/MTB, r/snowboarding, r/skiing, r/kayaking, r/astrophotography with insta360 keyword search",
-    "YouTube: search 'insta360 X5' uploaded last 30 days, sort by view count — likely surfaces creators not on Reddit",
-    "Reach out via the Reddit DM workflow to top picks (robmaco, TheSerialHobbyist, Thernbee) since email is unknown",
-    "For rdrjrh, contact via Instagram/TikTok @flyandfoto",
-    "Investigate Most-Gate-5595's specific camera model via post-comment thread to upgrade confidence to high"
+    "Week A: Reddit + YouTube with more targeted queries — specifically r/insta360 posts with 100+ upvotes, YouTube channels with expedition/science content",
+    "Try Google Scholar specifically for 'Insta360 X5' (released May 2025) — papers using it would be very recent (2025-2026)",
+    "Try: 'insta360' AND 'fieldwork' site:scholar.google.com to find current models in research",
+    "Search journalism/documentary communities: NPPA (National Press Photographers Association), Emmy Award databases, immersive journalism researcher networks",
+    "ThingLink platform featured Dr. Danielle Millea — check ThingLink blog for other Insta360-using educators",
+    "Try: Carleton University '360-Degree Videos Make Social Issues Education Engaging' — look for specific researcher names",
+    "Try: 'immersive journalism' 'insta360' 2025 — to find more VR documentary journalists",
+    "Search for Insta360 at specific adventure film festivals: Banff Mountain Film Festival, Sheffield DocFest, True/False Film Fest",
+    "Try non-English academic databases: Spanish CSIC, French HAL, German OPUS for insta360 papers in local languages"
   ],
   "week_type_rotation_log": [
-    {"date": "2026-04-07", "week_type": "B"},
-    {"date": "2026-04-09", "week_type": "C"},
-    {"date": "2026-04-10", "week_type": "C"},
-    {"date": "2026-04-12", "week_type": "A"},
-    {"date": "2026-04-26", "week_type": "B"},
-    {"date": "2026-04-27", "week_type": "C"}
+    {
+      "date": "2026-04-07",
+      "week_type": "B"
+    },
+    {
+      "date": "2026-04-09",
+      "week_type": "C"
+    },
+    {
+      "date": "2026-04-10",
+      "week_type": "C"
+    },
+    {
+      "date": "2026-04-12",
+      "week_type": "A"
+    },
+    {
+      "date": "2026-04-26",
+      "week_type": "B"
+    },
+    {
+      "date": "2026-04-28",
+      "week_type": "C"
+    }
   ]
 }

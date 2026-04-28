@@ -1,0 +1,62 @@
+{
+  "run_date": "2026-04-27",
+  "week_type": "C",
+  "week_focus": "Forums + source discovery — deep dive on r/Insta360, r/scuba, r/diving",
+  "stories": [
+    {
+      "name": "Robmaco (Reddit u/robmaco)",
+      "location": "Scotland, UK (West Highland Way)",
+      "story_summary": "Adventurer who completed a 100-mile traverse of Scotland's West Highland Way (Milngavie to Fort William) over multiple days in mountainous, rocky, and weather-extreme terrain while using a Hypershell exoskeleton and documenting the entire journey with an Insta360 X5. The post details day-by-day stages with battery management, dehydration scares, and rough mountain trails, captured POV-style with the X5. Posted September 2025 to r/Insta360 (239 upvotes).",
+      "product_used": "Insta360 X5",
+      "why_it_matters": "Combines an emerging assistive-tech (powered exoskeleton) with long-distance hiking documentation — a fresh accessibility/endurance angle that hasn't been featured by Insta360.",
+      "source_link": "https://www.reddit.com/r/Insta360/comments/1nk6kl6/completing_a_100_mile_journey_with_my_insta_x5_and_a_hypershell_exoskeleton/",
+      "source_type": "reddit",
+      "confidence": "high",
+      "verification_note": "Insta360 X5 explicitly named multiple times in the post text by the creator himself; first-person account."
+    },
+    {
+      "name": "rdrjrh / 'flyandfoto' (IG/TikTok)",
+      "location": "Unknown (high-latitude / aurora-visible region)",
+      "story_summary": "Aspiring night-sky photographer who shoots auroras, Milky Way, and starlapse footage with the Insta360 X5 alongside a Sony A7R IV and Samsung S24U. Multiple posts went viral on r/Insta360: 'Starlapse Mode' (458 upvotes), 'Starlapse mode on the X5' (255), 'The ultimate X4 vs X5 low-light comparison' (237), and '5 Nights of Auroras on the Insta 360 X4' (145). Acts as a community evangelist for using 360 cameras in astrophotography.",
+      "product_used": "Insta360 X5 (and X4)",
+      "why_it_matters": "Niche but high-quality astrophotography use-case showcasing the X5's new larger sensor and low-light capability — currently the most upvoted X5 starlapse content on Reddit.",
+      "source_link": "https://www.reddit.com/user/rdrjrh/",
+      "source_type": "reddit",
+      "confidence": "high",
+      "verification_note": "Reddit user profile public_description explicitly lists 'insta360 x5' as one of three cameras used. Content directly verifies."
+    },
+    {
+      "name": "TheSerialHobbyist (Reddit u/TheSerialHobbyist)",
+      "location": "Unknown",
+      "story_summary": "Maker/hobbyist who designed and built a fully open-source remote control for the Insta360 X5, releasing the code on GitHub and posting a build-along on their website. Reddit post 'I made an open-source remote for the Insta360 X5' received 250 upvotes in r/Insta360.",
+      "product_used": "Insta360 X5",
+      "why_it_matters": "DIY/maker community story showing creator-driven hardware ecosystem extending Insta360 products — a content angle Insta360's blog hasn't covered.",
+      "source_link": "https://www.reddit.com/r/Insta360/comments/1mvx3v4/i_made_an_opensource_remote_for_the_insta360_x5/",
+      "source_type": "reddit",
+      "confidence": "high",
+      "verification_note": "Insta360 X5 explicitly named in title and post; source code referenced as on GitHub (link suppressed by self-promotion rule but creator offered to share)."
+    },
+    {
+      "name": "Thernbee (Reddit u/Thernbee)",
+      "location": "Unknown (German-speaking Europe; references rivers and Meta Quest 3 playback)",
+      "story_summary": "Kayaker/maker who designed and 3D-printed a custom floating camera buoy — fiberglass-reinforced, PU-foam-filled, marine-varnish-coated — to mount his Insta360 X4 Air for solo-paddler POV captures. Posted to r/Insta360 in 2026 (175 upvotes). Watches the footage afterward immersively in Meta Quest 3.",
+      "product_used": "Insta360 X4 Air",
+      "why_it_matters": "Engineered DIY accessory for solo outdoor capture, plus a clear before/after VR-playback story — strong visual + 'why I made this' transformation arc.",
+      "source_link": "https://www.reddit.com/r/Insta360/comments/1sus4eb/i_built_a_buoy_for_my_insta_360/",
+      "source_type": "reddit",
+      "confidence": "high",
+      "verification_note": "Insta360 X4 Air explicitly named in post text by creator; first-person account with technical build detail."
+    },
+    {
+      "name": "Most-Gate-5595 (Reddit u/Most-Gate-5595)",
+      "location": "Unknown (mountain bike park context; references local UK-style bike shop stocking Sweet Protection)",
+      "story_summary": "Mountain biker who pulled off what may be the first-ever selfie-stick backflip on an MTB — a self-filmed POV trick stitched and reframed via Insta360. Multiple posts on r/Insta360 demonstrate creative POV work and unicorn-mount tricks at his jumps. The 'selfie stick backflip' post hit 167 upvotes.",
+      "product_used": "Insta360 (X5 / unspecified — pole-mounted invisible selfie stick)",
+      "why_it_matters": "Genuinely novel action-sports trick + creator iterating on new POV mounts — sits in Insta360's core action-sports vertical.",
+      "source_link": "https://www.reddit.com/r/Insta360/comments/1mafjhd/introducing_the_selfie_stick_backflip_possibly_the/",
+      "source_type": "reddit",
+      "confidence": "medium",
+      "verification_note": "Posted to r/Insta360 with characteristic invisible-selfie-stick footage; specific model not stated in title but context strongly indicates X5 era."
+    }
+  ]
+}

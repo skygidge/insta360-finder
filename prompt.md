@@ -26,11 +26,11 @@ Each week, focus deeply on a subset of sources rather than skimming everything:
 Check `data/learnings.json` to see which week type is next and what worked previously.
 
 ### Search Queries (adapt and evolve based on learnings)
-- Reddit (use WebFetch on the JSON API directly — do NOT use web search `site:reddit.com` queries, they return zero results):
-  - Week A subreddits: `https://www.reddit.com/r/insta360/new.json?limit=25`, `https://www.reddit.com/r/360photography/new.json?limit=25`, `https://www.reddit.com/r/360video/new.json?limit=25`, `https://www.reddit.com/r/videography/new.json?limit=25`, `https://www.reddit.com/r/ActionCamera/new.json?limit=25`
-  - Week C subreddits: `https://www.reddit.com/r/insta360/new.json?limit=25`, `https://www.reddit.com/r/scuba/new.json?limit=25`, `https://www.reddit.com/r/diving/new.json?limit=25`, `https://www.reddit.com/r/documentary/new.json?limit=25`
-  - Keyword search: `https://www.reddit.com/r/insta360/search.json?q=insta360&sort=new&t=month&limit=25`
-  - To read a full post: append `.json` to any Reddit post URL (e.g. `https://reddit.com/r/insta360/comments/abc123/slug.json`)
+- Reddit (use curl with a User-Agent header — do NOT use web search `site:reddit.com` queries, they return zero results; WebFetch is also blocked for reddit.com):
+  - Week A subreddits: fetch with `curl -s -H "User-Agent: InstaStoryFinder/1.0 (by /u/skygidge)" "https://www.reddit.com/r/insta360/new.json?limit=25"` — repeat for r/360photography, r/360video, r/videography, r/ActionCamera
+  - Week C subreddits: same curl pattern for r/insta360, r/scuba, r/diving, r/documentary
+  - Keyword search: `curl -s -H "User-Agent: InstaStoryFinder/1.0 (by /u/skygidge)" "https://www.reddit.com/r/insta360/search.json?q=insta360&sort=new&t=month&limit=25"`
+  - To read a full post: append `.json` to any Reddit post URL and curl it with the same User-Agent
   - Parse response: `data.children[].data` → fields: `title`, `url`, `selftext`, `permalink`, `author`
 - YouTube: "filmed with insta360", "insta360 documentary", "shot on insta360", "insta360 X4 project"
 - Google News: "insta360 creator", "insta360 filmmaker", "insta360 photographer"

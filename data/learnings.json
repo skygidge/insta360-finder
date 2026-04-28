@@ -1,93 +1,57 @@
 {
-  "session_date": "2026-04-26",
-  "week_type_used": "B",
-  "next_week_type": "C",
-  "stories_found_count": 3,
-  "high_confidence_count": 0,
+  "session_date": "2026-04-27",
+  "week_type_used": "C",
+  "next_week_type": "A",
+  "stories_found_count": 5,
+  "high_confidence_count": 4,
   "productive_queries": [
-    "frontiers virtual reality 2025 'social anxiety' 'insta360' 'InstaOneX' 360 video CBT authors researchers",
-    "PMC12094806 'insta360 Pro' neurosurgery VR 360 medical students authors institution",
-    "'Cui' 'Cong' 'Zeng' 'Wang' 'insta360' stroke VR VRAO NMES 2025 frontiers neurology author names",
-    "10.3389/frvir.2025.1588181 authors institutions social anxiety VR exposure insta360",
-    "'insta360' used VR 360 therapy hospital clinical treatment mental health specific use 2025 published",
-    "'insta360' psychiatry mental health VR exposure therapy anxiety phobia 2025 study"
+    "r/Insta360 top of year — JSON API listing surfaced 30 high-engagement first-person posts with explicit product naming",
+    "r/scuba search.json q=insta360 — 20 organic mentions including underwater adventure context",
+    "Reddit user about.json — public_description field reveals creator profile/handles (e.g. rdrjrh = 'flyandfoto' on IG/TikTok)",
+    "Reddit individual post .json append — full self-text accessible without WebFetch"
   ],
   "unproductive_queries": [
-    "insta360 fieldwork archaeology geology ecology marine biology academic journal 2025 2026",
-    "insta360 photographer filmmaker scientist site:theguardian.com OR site:bbc.com",
-    "insta360 documentary filmmaker site:nofilmschool.com OR site:ymcinema.com 2025 2026",
-    "site:reddit.com/r/insta360 documentary expedition research filmmaker science 2025",
-    "insta360 conservation biology researcher scientist 2025 published result nature wildlife unique",
-    "insta360 cave spelunking underground mountain rescue search 2025",
-    "insta360 journalist reporter news story unique 2025",
-    "insta360 Vimeo documentary creator filmmaker 2025 nature conservation expedition"
+    "r/documentary search for insta360 — KeyError, very low signal",
+    "r/diving — only 3 posts ever mentioning insta360, all gear questions"
   ],
   "productive_sources": [
-    "frontiersin.org (search snippets when 403 on WebFetch — consistently reliable for Insta360 citations)",
-    "pmc.ncbi.nlm.nih.gov (search snippets for author info and quotes)",
-    "pubmed.ncbi.nlm.nih.gov (abstract and author info)",
-    "cureus.com (open access medical journal — new source this run)",
-    "researchgate.net (search result snippets for author details)"
+    "reddit.com/r/Insta360 (curl + UA, by far the highest-yield single source this run — 5 of 5 stories)",
+    "reddit.com/r/scuba (curl + UA, useful for underwater creators with Insta360)",
+    "Reddit user about.json + submitted.json (excellent for creator verification and cross-platform handles)"
   ],
   "blocked_sources": [
-    "frontiersin.org (403 WebFetch — bot detection)",
-    "pmc.ncbi.nlm.nih.gov (403 WebFetch)",
-    "cureus.com (403 WebFetch)",
-    "isprs-archives.copernicus.org (403 WebFetch)",
-    "isprs-annals.copernicus.org (403 WebFetch)",
-    "petapixel.com (403 WebFetch)",
-    "digitalcameraworld.com (403 WebFetch)",
-    "explorersconnect.com (403 WebFetch)",
-    "loop.frontiersin.org (403 WebFetch)",
-    "researchgate.net (403 WebFetch)",
-    "portal.findresearcher.sdu.dk (403 WebFetch)"
+    "WebFetch on reddit.com still 403 (use curl with User-Agent header — works perfectly)",
+    "All previously listed academic publishers (frontiersin, pmc, cureus, etc.) remain 403 on WebFetch"
   ],
   "confirmed_exclusions_this_run": [
-    "Foren Project / Dr. Charo Ortin — already featured on Insta360 enterprise blog",
-    "Andy Casagrande — appears in Insta360 community stories blog; no independent source confirms Insta360 use",
-    "Martin (Antarctica) — appears in Insta360 community stories blog"
+    "@sailgp — official corporate SailGP account; partnership content, not a creator story",
+    "rdrjrh starlapse posts cross-checked against community-stories blog — not previously featured"
   ],
-  "new_domains_found": [
-    "cureus.com (open-access medical journal with accessible Insta360 citations in peer-reviewed papers)"
+  "discovered_sources": [
+    "Reddit JSON API via curl + custom User-Agent — definitive method for Insta360 story discovery; should be the Week A primary spine going forward",
+    "Reddit user profile public_description field — surfaces external social handles (IG/TikTok) needed for outreach"
   ],
+  "new_domains_found": [],
   "patterns": [
-    "Academic medical papers continue to be the only fruitful source for verifiable Insta360 use — 4th+ consecutive run finding only medical/academic stories",
-    "All three stories this run are in the medical/clinical domain: psychiatry (Denmark), neurosurgery (Japan), neurology (China)",
-    "Insta360 Pro (2017/2018), ONE X (2018), and ONE X2 (2020) models continue to appear in academic papers — older models cited in peer-reviewed research years after discontinuation",
-    "Rehabilitation and VR therapy is a dominant recurring theme — five papers now found across runs",
-    "Japan (Tanaka) and Denmark (Orskov) are newly represented geographies not previously in the dataset",
-    "News outlets, film trade press, Reddit/YouTube searches continue to yield zero verifiable creator stories",
-    "All academic journal WebFetches continue to return 403 (bot-detection) — but search snippet verification is sufficient per established precedent"
+    "Week C with curl-based Reddit access yielded 5 organic creator stories — best single-week count to date and broke the medical/academic-only pattern of recent runs",
+    "Insta360 X5 (released 2025) is now the dominant model in organic Reddit content; X4 Air and Ace Pro 2 also appearing",
+    "Maker / DIY-engineering stories (open-source remote, 3D-printed buoy, exoskeleton hike) are an underexploited content vertical for Insta360's blog",
+    "Astrophotography / starlapse is a distinct emerging vertical driven by the X5's larger sensor — multiple 200+ upvote posts",
+    "First-person Reddit posts with the creator naming the model in their own text remain the highest-confidence source class"
   ],
   "suggestions_for_next_run": [
-    "MUST try Week C — niche communities: DPReview forums, Vimeo channels, Filmmaker Magazine, No Film School",
-    "Try non-English searches: Spanish/Portuguese language searches for Latin American creators using Insta360",
-    "Search Google Scholar specifically for 'Insta360 X4' OR 'Insta360 X5' — newer current models used in research",
-    "Search veterinary medicine, forensic photography, climate science for new academic angles not yet covered",
-    "Try r/Filmmakers, r/videography, r/documentaryfilmmaking on Reddit for organic Insta360 mentions",
-    "Search Per Trads Orskov's email via University of Southern Denmark faculty directory for outreach",
-    "Verify Tatsuya Tanaka's email (s96047@hotmail.com) is actually his before using it for outreach"
+    "Week A: continue Reddit deep-dive — try r/videography, r/Filmmakers, r/MTB, r/snowboarding, r/skiing, r/kayaking, r/astrophotography with insta360 keyword search",
+    "YouTube: search 'insta360 X5' uploaded last 30 days, sort by view count — likely surfaces creators not on Reddit",
+    "Reach out via the Reddit DM workflow to top picks (robmaco, TheSerialHobbyist, Thernbee) since email is unknown",
+    "For rdrjrh, contact via Instagram/TikTok @flyandfoto",
+    "Investigate Most-Gate-5595's specific camera model via post-comment thread to upgrade confidence to high"
   ],
   "week_type_rotation_log": [
-    {
-      "date": "2026-04-07",
-      "week_type": "B"
-    },
-    {
-      "date": "2026-04-09",
-      "week_type": "C"
-    },
-    {
-      "date": "2026-04-10",
-      "week_type": "C"
-    },
-    {
-      "date": "2026-04-12",
-      "week_type": "A"
-    },
-    {
-      "date": "2026-04-26",
-      "week_type": "B"
-    }
+    {"date": "2026-04-07", "week_type": "B"},
+    {"date": "2026-04-09", "week_type": "C"},
+    {"date": "2026-04-10", "week_type": "C"},
+    {"date": "2026-04-12", "week_type": "A"},
+    {"date": "2026-04-26", "week_type": "B"},
+    {"date": "2026-04-27", "week_type": "C"}
   ]
 }

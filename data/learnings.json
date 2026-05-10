@@ -1,87 +1,72 @@
 {
-  "session_date": "2026-05-03",
-  "week_type_used": "A",
-  "next_week_type": "B",
+  "session_date": "2026-05-10",
+  "week_type_used": "B",
+  "next_week_type": "C",
   "productive_queries": [
-    "indiewire Sundance 2025 cinematography documentaries insta360",
-    "\"2000 Meters to Andriivka\" cameras \"sony\" \"gopro\" \"insta\" format production list",
-    "Sundance 2025 cameras documentaries insta360 filmmaker cinematographer",
-    "\"Sundance 2025: The Cameras and Lenses Behind 26 Documentaries\" insta360",
-    "Mstyslav Chernov Alex Babenko camera equipment cinematography list Sundance documentary 2025"
+    "\"insta360\" site:nationalgeographic.com OR site:scientificamerican.com photographer researcher 2025",
+    "\"Magic Farm\" Sundance 2025 insta360 cinematographer camera filmmaker",
+    "indiewire SXSW 2025 cameras documentaries insta360 cinematographer survey",
+    "\"LifeHack\" SXSW 2025 film insta360 cinematographer director camera",
+    "\"Magic Farm\" Sundance 2025 film director cinematographer cameras used equipment"
   ],
   "unproductive_queries": [
-    "site:reddit.com insta360 documentary expedition research science 2025",
-    "site:reddit.com insta360 wildlife conservation rescue film 2025",
-    "\"filmed with insta360\" OR \"shot on insta360\" documentary 2025 YouTube",
-    "reddit r/insta360 expedition documentary research upvotes 2025",
-    "\"insta360 X5\" documentary expedition science research filmmaker 2025",
-    "insta360 Banff Mountain Film Festival filmmaker 2024 2025",
-    "insta360 X4 OR X5 fieldwork ecology marine biology geology archaeology 2025 research",
-    "\"insta360\" fieldwork 2025 paper study researcher university journal",
-    "site:pubmed.ncbi.nlm.nih.gov \"insta360\" 2025 camera study",
-    "\"insta360\" \"polar\" OR \"arctic\" OR \"antarctica\" research 2024 2025 expedition filmmaker",
-    "reddit.com/r/insta360 underwater ocean whale shark dive documentary 2025",
-    "\"insta360\" Sheffield DocFest OR True/False OR SXSW 2025 filmmaker documentary",
-    "\"insta360\" paper published 2025 2026 \"methods\" camera fieldwork journal ecology biology",
-    "\"insta360\" OR \"insta 360\" geologist OR volcanologist OR climatologist 2025 research field"
+    "indiewire cameras lenses IDFA 2025 documentary insta360 (no IDFA camera survey exists)",
+    "indiewire cameras Hot Docs 2025 documentary insta360 (no Hot Docs camera survey exists)",
+    "\"insta360\" ISPRS CIPA 2025 heritage documentation fieldwork camera author (ISPRS PDFs return 403)",
+    "\"insta360\" Google Scholar 2025 2026 marine biology ecology geology fieldwork researcher",
+    "\"insta360\" architecture heritage VR spatial documentation urban planning researcher 2025",
+    "\"insta360\" Frontiers journal 2025 2026 hospital therapy VR research camera new study (only found already-known papers)",
+    "\"insta360\" Sheffield DocFest 2025 OR Tribeca 2025 OR \"Hot Docs\" 2025 documentary filmmaker (no camera surveys found)",
+    "\"insta360\" 2025 academic paper fieldwork ecology oceanography paleontology"
   ],
   "productive_sources": [
-    "IndieWire 'Cameras and Lenses Behind Sundance Documentaries' annual survey — gold mine for professional Insta360 use in documentary filmmaking; cinematographers self-report equipment",
-    "YMCinema.com (mirrors IndieWire camera survey data)",
-    "KamehaMedia.com (Sundance camera coverage)"
+    "National Geographic 'How a Nat Geo photographer captured...' — NatGeo photographers self-report equipment choices including Insta360 in 'How I shot it' style articles",
+    "IndieWire Sundance 2025 NARRATIVE features camera survey (different from documentary survey) — confirmed Insta360 in Magic Farm",
+    "IndieWire SXSW 2025 camera survey — confirmed Insta360 as one of 18 cameras in LifeHack"
   ],
   "blocked_sources": [
-    "indiewire.com (403 WebFetch — bot detection)",
-    "ymcinema.com (403 WebFetch)",
-    "imdb.com/technical (403 WebFetch)",
-    "frontiersin.org (403 WebFetch — consistent)",
-    "reddit.com (blocked for WebFetch)",
-    "besjournals.onlinelibrary.wiley.com (403 WebFetch)",
-    "isprs-archives.copernicus.org (403 WebFetch)",
-    "petapixel.com (403 WebFetch)",
-    "digitalcameraworld.com (403 WebFetch)",
-    "deeperblue.com (403 WebFetch)",
-    "documentary.org (403 WebFetch)",
-    "2000meterstoandriivka.com (403 WebFetch)",
-    "pbs.org/frontline (403 WebFetch)",
-    "screenanarchy.com (403 WebFetch)",
-    "wttw.com (403 WebFetch)"
+    "nationalgeographic.com (403 WebFetch — bot detection, not paywall)",
+    "indiewire.com (403 WebFetch — consistent)",
+    "ymcinema.com (403 WebFetch — consistent)",
+    "kamehamedia.com (403 WebFetch)",
+    "nofilmschool.com (403 WebFetch — consistent)",
+    "horrorgeeklife.com (SSL certificate error)",
+    "facebook.com (403 WebFetch — consistent)",
+    "marcuswestberg.photo (403 WebFetch)",
+    "isprs-annals.copernicus.org (403 WebFetch — consistent)",
+    "isprs-archives.copernicus.org (403 WebFetch — consistent)"
   ],
   "confirmed_exclusions_this_run": [
-    "Dorothy Project (Team Dorothy) — already on exclusion list; confirmed as same project as Overview Effect space story",
-    "Godfree pannotator paper — uses GoPro Max, not Insta360 (Insta360 only mentioned as alternative)",
-    "ACTUAL Inc. / Keiji Uematsu — already featured on Insta360 enterprise blog",
-    "Peter McKinnon — official Insta360 partner (Peter McKinnon Edition X4 Kit)",
-    "Alex Bescoby — no confirmed Insta360 use",
-    "Janusz Bedkowski (ISPRS LiDAR paper) — technical calibration paper, not a creator story"
+    "Telmo dos Reis — already featured on Insta360 blog ('5 Tips for Filming a VR Nature Documentary in the African Savannah'; 'A Virtual Tour In The African Wilds Using Insta360 Pro')",
+    "Mstyslav Chernov / Alex Babenko (2000 Meters to Andriivka) — already in previous results",
+    "Sundance 2026 documentary survey — no Insta360 found in 2026 documentary survey"
   ],
   "new_domains_found": [
-    "IndieWire 'Cameras and Lenses Behind [Festival] Documentaries' annual survey series — first confirmed use for finding professional Insta360 in prestige documentary filmmaking; same series exists for IDFA, Hot Docs, TIFF, Sheffield DocFest",
-    "ISPRS CIPA 2025 Symposium (Seoul) — confirmed Insta360 Titan in heritage documentation papers; academic angle for architecture/heritage sector",
-    "ISPRS EuroCOW 2025 (Warsaw) — confirmed Insta360 X4 in LiDAR mobile mapping research (Bedkowski et al., Polish Academy of Sciences)"
+    "IndieWire Sundance NARRATIVE features camera survey (separate from documentary survey) — confirmed Insta360 use in Magic Farm; check this survey annually",
+    "IndieWire SXSW camera survey (narrative + documentary) — confirmed Insta360 use in LifeHack; mine every year",
+    "National Geographic 'How I shot it' format articles — NatGeo photographers self-report equipment; try 'site:nationalgeographic.com insta360' each run"
   ],
   "patterns": [
-    "Week A (Reddit + YouTube) almost entirely unproductive — site: restricted searches return zero results; generic searches return only already-known content",
-    "Film trade press camera surveys (IndieWire Sundance) are a reliable and previously untapped source for professional Insta360 use in documentary filmmaking",
-    "Key discovery: IndieWire polls cinematographers annually for each major festival — any documentary using Insta360 will appear in these surveys",
-    "Reddit direct access is blocked; Reddit content only discoverable through specific URL searches (which are also often 403 blocked)",
-    "All major media websites (IndieWire, PetaPixel, Digital Camera World, etc.) return 403 for WebFetch — confirmation must come from search snippets",
-    "Academic papers remain reliable but require search snippet confirmation rather than WebFetch verification",
-    "ISPRS/Copernicus photogrammetry papers are a new academic domain using Insta360 for fieldwork/mapping",
-    "Insta360 use in war documentary filmmaking is a completely new and compelling domain"
+    "National Geographic 'How a photographer captured' articles self-report specific cameras including Insta360 — this is a reliable source type not previously mined",
+    "IndieWire publishes SEPARATE camera surveys for narrative features AND documentaries at Sundance, SXSW — both should be searched each Week B run",
+    "Hot Docs, IDFA, Sheffield DocFest do NOT have equivalent IndieWire camera surveys — do not waste queries on these",
+    "Insta360 increasingly appears in festival films (Sundance, Berlinale, SXSW) as deliberate aesthetic choice for specific visual registers (social media, screenlife, vrite)",
+    "When Insta360 is 1 of many cameras (LifeHack: 1 of 18), confidence should be LOW — the story is weak without a dedicated filmmaker quote about Insta360 specifically",
+    "Magic Farm pattern: Insta360 used alongside cinema cameras to create social media visual language — new use-case archetype worth watching for future festivals",
+    "All major websites consistently return 403 for WebFetch — search snippet methodology is the correct approach; do not waste attempts on WebFetch for these sites"
   ],
   "suggestions_for_next_run": [
-    "Week B: Try IndieWire cameras surveys for other festivals — IDFA 2025, Hot Docs 2025, Sheffield DocFest 2025, TIFF 2025 — query: 'indiewire cameras [festival] 2025 documentary insta360'",
-    "Try: Hot Docs 2025 cameras survey for Insta360 use",
-    "Try: 'insta360' IDFA 2025 documentary camera survey cinematographer",
-    "Try Google Scholar: 'insta360' ISPRS CIPA 2025 heritage documentation author Seoul",
-    "Try: 'insta360' ASC American Cinematographer magazine 2025 cinematographer",
-    "Try: Sundance 2026 cameras survey (now available — festival was January 2026): 'indiewire cameras sundance 2026 documentary insta360'",
-    "Try: 'insta360' site:screendaily.com OR site:variety.com — trade press profiling crew gear",
-    "Try: 'insta360' ASC award nominations OR winners 2025 2026 cinematographer",
-    "Search ISPRS CIPA 2025 proceedings (isprs-annals X-M-2-2025) directly for specific Insta360 authors"
+    "Week C: Try Reddit r/Insta360 for recent creative or unexpected uses (direct URL searches since site: search is blocked)",
+    "Try Vimeo Staff Picks for 360 content using Insta360 (vimeo.com/channels/staffpicks)",
+    "Try: Cannes 2025 camera survey — 'indiewire cannes 2025 cameras cinematographer insta360' (Cannes survey confirmed to exist in search results)",
+    "Try: 'indiewire 2025 fall camera survey insta360' — this survey covers 45 top fall 2025 films",
+    "Try: 'site:nationalgeographic.com insta360 2025 photographer' for more NatGeo photographer self-reports",
+    "Try: Marcus Westberg specifically — search his Instagram @marcuswestbergphotography or Twitter @TheLifeOfMarcus for the specific Insta360 model used in South Sudan",
+    "Try: Niche conservation photography forums, DPReview, LensWork for Insta360 mentions",
+    "Look for: Carlos Rigo Belliver follow-up — his next project may use Insta360 again; check carlosrigobellver.com",
+    "Try: 'insta360' conservation photographer 'first-ever' OR 'world first' OR 'never before' wildlife footage 2025 2026"
   ],
-  "stories_found_count": 1,
+  "stories_found_count": 3,
   "high_confidence_count": 0,
   "week_type_rotation_log": [
     {
@@ -111,6 +96,10 @@
     {
       "date": "2026-05-03",
       "week_type": "A"
+    },
+    {
+      "date": "2026-05-10",
+      "week_type": "B"
     }
   ]
 }

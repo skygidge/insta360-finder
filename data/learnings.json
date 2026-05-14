@@ -1,72 +1,65 @@
 {
-  "session_date": "2026-05-10",
-  "week_type_used": "B",
-  "next_week_type": "C",
+  "session_date": "2026-05-13",
+  "week_type_used": "C",
+  "next_week_type": "A",
   "productive_queries": [
-    "\"insta360\" site:nationalgeographic.com OR site:scientificamerican.com photographer researcher 2025",
-    "\"Magic Farm\" Sundance 2025 insta360 cinematographer camera filmmaker",
-    "indiewire SXSW 2025 cameras documentaries insta360 cinematographer survey",
-    "\"LifeHack\" SXSW 2025 film insta360 cinematographer director camera",
-    "\"Magic Farm\" Sundance 2025 film director cinematographer cameras used equipment"
+    "PubMed eutils API: esearch term=insta360 (returned 4 PMIDs, 2 already in database, 1 confirmed new story)",
+    "\"insta360\" Contaifer pharmacy \"Virginia Commonwealth\" VR sterile compounding camera (confirmed Insta360 Pro in methods)"
   ],
   "unproductive_queries": [
-    "indiewire cameras lenses IDFA 2025 documentary insta360 (no IDFA camera survey exists)",
-    "indiewire cameras Hot Docs 2025 documentary insta360 (no Hot Docs camera survey exists)",
-    "\"insta360\" ISPRS CIPA 2025 heritage documentation fieldwork camera author (ISPRS PDFs return 403)",
-    "\"insta360\" Google Scholar 2025 2026 marine biology ecology geology fieldwork researcher",
-    "\"insta360\" architecture heritage VR spatial documentation urban planning researcher 2025",
-    "\"insta360\" Frontiers journal 2025 2026 hospital therapy VR research camera new study (only found already-known papers)",
-    "\"insta360\" Sheffield DocFest 2025 OR Tribeca 2025 OR \"Hot Docs\" 2025 documentary filmmaker (no camera surveys found)",
-    "\"insta360\" 2025 academic paper fieldwork ecology oceanography paleontology"
+    "Reddit r/insta360 new posts (25 posts, all product questions/complaints/gear comparisons — zero creator stories)",
+    "Reddit r/insta360 search: project OR documentary OR film OR expedition OR research (zero relevant results)",
+    "Reddit r/scuba, r/Filmmakers search for insta360 (generic r/Insta360 crosstalk only)",
+    "\"insta360\" documentary expedition conservation wildlife 2025 2026 (only Insta360 own blog content)",
+    "\"insta360\" site:vimeo.com documentary filmmaker 2025 (no specific creator stories)",
+    "\"insta360\" cámara documental fotógrafo proyecto 2025 2026 (Spanish search — no results)",
+    "\"insta360\" veterinary forensic archaeology climate science study 2025 (no results)",
+    "\"insta360\" real estate architecture interior design virtual tour 2025 2026 (only Insta360 enterprise marketing)",
+    "\"insta360\" site:petapixel.com OR site:nofilmschool.com OR site:dpreview.com (no creator stories)",
+    "\"insta360\" site:deeperblue.com OR site:pinkbike.com OR site:fredmiranda.com (only product announcements)",
+    "Gmail search: insta360 newer_than:14d (only Discord notifications, job listings, no newsletters with creator content)"
   ],
   "productive_sources": [
-    "National Geographic 'How a Nat Geo photographer captured...' — NatGeo photographers self-report equipment choices including Insta360 in 'How I shot it' style articles",
-    "IndieWire Sundance 2025 NARRATIVE features camera survey (different from documentary survey) — confirmed Insta360 in Magic Farm",
-    "IndieWire SXSW 2025 camera survey — confirmed Insta360 as one of 18 cameras in LifeHack"
+    "PubMed eutils API (bypasses reCAPTCHA; confirmed Insta360 mention in 4 papers)",
+    "VCU News (verified researcher profile and personal details for Silas Contaifer story)"
   ],
   "blocked_sources": [
-    "nationalgeographic.com (403 WebFetch — bot detection, not paywall)",
-    "indiewire.com (403 WebFetch — consistent)",
-    "ymcinema.com (403 WebFetch — consistent)",
-    "kamehamedia.com (403 WebFetch)",
-    "nofilmschool.com (403 WebFetch — consistent)",
-    "horrorgeeklife.com (SSL certificate error)",
-    "facebook.com (403 WebFetch — consistent)",
-    "marcuswestberg.photo (403 WebFetch)",
-    "isprs-annals.copernicus.org (403 WebFetch — consistent)",
-    "isprs-archives.copernicus.org (403 WebFetch — consistent)"
+    "pubmed.ncbi.nlm.nih.gov (reCAPTCHA on WebFetch — use eutils API instead)",
+    "pmc.ncbi.nlm.nih.gov (403 WebFetch)",
+    "journals.sagepub.com (403 WebFetch)",
+    "researchgate.net (403 WebFetch)",
+    "insta360.com/blog (403 WebFetch)",
+    "nofilmschool.com (accessible — Project ETERNAL verified but it's an Insta360 partnership, not independent)"
   ],
   "confirmed_exclusions_this_run": [
-    "Telmo dos Reis — already featured on Insta360 blog ('5 Tips for Filming a VR Nature Documentary in the African Savannah'; 'A Virtual Tour In The African Wilds Using Insta360 Pro')",
-    "Mstyslav Chernov / Alex Babenko (2000 Meters to Andriivka) — already in previous results",
-    "Sundance 2026 documentary survey — no Insta360 found in 2026 documentary survey"
+    "Project ETERNAL / Antigravity — Insta360 official partnership, not independent creator",
+    "James Blake music video — already featured on Insta360 blog (The Reids / creator-stories)",
+    "Weezer music video — Peter Quinn already on exclusion list",
+    "Pat Aldinger — already on exclusion list"
   ],
   "new_domains_found": [
-    "IndieWire Sundance NARRATIVE features camera survey (separate from documentary survey) — confirmed Insta360 use in Magic Farm; check this survey annually",
-    "IndieWire SXSW camera survey (narrative + documentary) — confirmed Insta360 use in LifeHack; mine every year",
-    "National Geographic 'How I shot it' format articles — NatGeo photographers self-report equipment; try 'site:nationalgeographic.com insta360' each run"
+    "PubMed eutils API (esearch.fcgi + esummary.fcgi + efetch.fcgi) — reliable programmatic access bypassing bot-detection reCAPTCHA on the web interface"
   ],
   "patterns": [
-    "National Geographic 'How a photographer captured' articles self-report specific cameras including Insta360 — this is a reliable source type not previously mined",
-    "IndieWire publishes SEPARATE camera surveys for narrative features AND documentaries at Sundance, SXSW — both should be searched each Week B run",
-    "Hot Docs, IDFA, Sheffield DocFest do NOT have equivalent IndieWire camera surveys — do not waste queries on these",
-    "Insta360 increasingly appears in festival films (Sundance, Berlinale, SXSW) as deliberate aesthetic choice for specific visual registers (social media, screenlife, vrite)",
-    "When Insta360 is 1 of many cameras (LifeHack: 1 of 18), confidence should be LOW — the story is weak without a dedicated filmmaker quote about Insta360 specifically",
-    "Magic Farm pattern: Insta360 used alongside cinema cameras to create social media visual language — new use-case archetype worth watching for future festivals",
-    "All major websites consistently return 403 for WebFetch — search snippet methodology is the correct approach; do not waste attempts on WebFetch for these sites"
+    "Week C forums (DeeperBlue, PinkBike, FredMiranda, Vimeo) yielded zero independent creator stories — consistent with previous runs",
+    "Reddit continues to be entirely product questions, complaints, and gear comparisons — no creator stories found in 5+ consecutive forum searches",
+    "Academic papers remain the ONLY consistent source of verifiable Insta360 creator stories — now 7 medical/academic VR papers in database",
+    "Gmail check added this run — found no Insta360 creator content in newsletters; only Discord notifications from Insta360 Shutter Circle community",
+    "Spanish-language search yielded nothing — Latin American market remains underrepresented",
+    "Story format changed this run: paragraph → bullet points with Insta360 employee relevance angle",
+    "Healthcare VR domains now span: neurosurgery (Japan, Germany), oncology (Stanford), psychiatry (Denmark), PTSD therapy (Ukraine), stroke rehab (Beijing), pharmacy (VCU Virginia) — remarkably diverse even if concentrated in one sector",
+    "Insta360 own blog exclusions are becoming significant — many web results for 'insta360 creator' lead to already-featured stories"
   ],
   "suggestions_for_next_run": [
-    "Week C: Try Reddit r/Insta360 for recent creative or unexpected uses (direct URL searches since site: search is blocked)",
-    "Try Vimeo Staff Picks for 360 content using Insta360 (vimeo.com/channels/staffpicks)",
-    "Try: Cannes 2025 camera survey — 'indiewire cannes 2025 cameras cinematographer insta360' (Cannes survey confirmed to exist in search results)",
-    "Try: 'indiewire 2025 fall camera survey insta360' — this survey covers 45 top fall 2025 films",
-    "Try: 'site:nationalgeographic.com insta360 2025 photographer' for more NatGeo photographer self-reports",
-    "Try: Marcus Westberg specifically — search his Instagram @marcuswestbergphotography or Twitter @TheLifeOfMarcus for the specific Insta360 model used in South Sudan",
-    "Try: Niche conservation photography forums, DPReview, LensWork for Insta360 mentions",
-    "Look for: Carlos Rigo Belliver follow-up — his next project may use Insta360 again; check carlosrigobellver.com",
-    "Try: 'insta360' conservation photographer 'first-ever' OR 'world first' OR 'never before' wildlife footage 2025 2026"
+    "Week A next (Reddit + YouTube): Try deeper YouTube search for specific project videos, not just channels",
+    "Search for Insta360 Vision Awards 2025 winners — grand prizes were announced March 10, 2026",
+    "Try Google Scholar with site:scholar.google.com for newer papers citing Insta360 X4 or X5 (current models)",
+    "Search for 'filmed with insta360' OR 'shot on insta360' on YouTube with time filter for last 6 months",
+    "Try Brazilian/Portuguese-language search (Silas Contaifer story shows Brazil is a market with Insta360 academic users)",
+    "Consider searching for education/training use cases beyond healthcare — architecture, engineering, safety training",
+    "Check Insta360 Vision Awards winner announcements at insta360.com/awards/vision-leica for new creator leads (winners may not yet be on exclusion list if not featured in blog)"
   ],
-  "stories_found_count": 3,
+  "stories_found_count": 1,
   "high_confidence_count": 0,
   "week_type_rotation_log": [
     {
@@ -100,6 +93,10 @@
     {
       "date": "2026-05-10",
       "week_type": "B"
+    },
+    {
+      "date": "2026-05-13",
+      "week_type": "C"
     }
   ]
 }

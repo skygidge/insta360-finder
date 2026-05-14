@@ -50,12 +50,30 @@ If a story uses a "360 camera" or "action camera" and the context strongly sugge
 |---|---|
 | Name | Creator/person/organization |
 | Location | City / Country (if discoverable, otherwise "Unknown") |
-| Story Summary | 2-3 sentences: who they are, what they did, how Insta360 was involved |
+| Story Summary | See format below |
 | Product Used | Specific model or "Likely Insta360 (unspecified)" |
 | Why This Story Matters | 1 sentence on why this is compelling for a creator story feature |
 | Source Link | URL to the original post/video/article |
 | Source Type | reddit / youtube / news / journal / forum / other |
 | Confidence | High / Medium / Low |
+
+### Story Summary Format
+The `story_summary` field uses a scannable format — NOT dense paragraphs:
+
+```
+One sentence: who did what, where, when, with which Insta360 product.
+• [Funny or ironic detail — only if something genuinely qualifies. Skip if nothing is funny.]
+• [Insta360 employee relevance — why should someone at Insta360 care? Marketing opportunity, product insight, new market vertical, competitive intel, outreach angle, etc.]
+• [Additional context as needed — awards, coverage, technical details, caveats]
+```
+
+Rules:
+- First line is ALWAYS a single sentence covering the basics
+- Use `•` for bullet points, separated by `\n` in JSON
+- Maximum 7 bullet points
+- At least one bullet explains Insta360 employee relevance
+- Funny/ironic bullet only when genuine — forced humor is worse than none
+- Do NOT change existing stories — this format applies only to new stories
 
 ### File Operations
 1. Read `data/exclusion_list.json` — creators already featured on the official blog

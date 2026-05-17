@@ -1,105 +1,86 @@
 {
-  "session_date": "2026-05-10",
-  "week_type_used": "B",
-  "next_week_type": "C",
+  "session_date": "2026-05-17",
+  "week_type_used": "C",
+  "next_week_type": "A",
   "productive_queries": [
-    "\"insta360\" site:nationalgeographic.com OR site:scientificamerican.com photographer researcher 2025",
-    "\"Magic Farm\" Sundance 2025 insta360 cinematographer camera filmmaker",
-    "indiewire SXSW 2025 cameras documentaries insta360 cinematographer survey",
-    "\"LifeHack\" SXSW 2025 film insta360 cinematographer director camera",
-    "\"Magic Farm\" Sundance 2025 film director cinematographer cameras used equipment"
+    "NYT Photographer Brings Cutting-Edge Gear to Antarctica Expedition insta360",
+    "Chang W. Lee NYT photographer Antarctica 2026 insta360 ace pro expedition icebreaker Araon climate",
+    "petapixel insta360 2025 2026 creator photographer filmmaker field story interview"
   ],
   "unproductive_queries": [
-    "indiewire cameras lenses IDFA 2025 documentary insta360 (no IDFA camera survey exists)",
-    "indiewire cameras Hot Docs 2025 documentary insta360 (no Hot Docs camera survey exists)",
-    "\"insta360\" ISPRS CIPA 2025 heritage documentation fieldwork camera author (ISPRS PDFs return 403)",
-    "\"insta360\" Google Scholar 2025 2026 marine biology ecology geology fieldwork researcher",
-    "\"insta360\" architecture heritage VR spatial documentation urban planning researcher 2025",
-    "\"insta360\" Frontiers journal 2025 2026 hospital therapy VR research camera new study (only found already-known papers)",
-    "\"insta360\" Sheffield DocFest 2025 OR Tribeca 2025 OR \"Hot Docs\" 2025 documentary filmmaker (no camera surveys found)",
-    "\"insta360\" 2025 academic paper fieldwork ecology oceanography paleontology"
+    "indiewire berlinale 2026 cameras cinematographer survey insta360 (no Insta360 found)",
+    "indiewire Sundance 2026 narrative features cameras survey insta360 (ARRI dominated, no Insta360)",
+    "SXSW 2026 film insta360 camera cinematographer unusual (no Insta360 found in SXSW 2026 survey)",
+    "Cannes 2026 film insta360 360 camera cinematographer unusual (no Insta360 confirmed)",
+    "'how I shot that' indiewire fall 2025 insta360 (no Insta360 in Fall 2025 survey)",
+    "indiewire cannes 2025 '61 cinematographers' insta360 (no Insta360 in Cannes 2025 survey)",
+    "site:reddit.com r/Insta360 creative unusual 2025 2026 (consistently returns no results via Google)",
+    "vimeo 'filmed with insta360' documentary 2025 staff picks (no results)",
+    "site:dpreview.com insta360 creative use 2025 (only product reviews returned)",
+    "'insta360' archaeology OR paleontology OR geology OR oceanography researcher 2025 2026 (no results)",
+    "'insta360' ethnography OR anthropology OR sociology humanities fieldwork 2025 2026 (no results)",
+    "'insta360' palliative OR hospice OR end-of-life VR therapy 2025 2026 study (no new papers with Insta360)",
+    "'insta360' theater OR performing arts OR dance documentary 2025 2026 (no results)",
+    "insta360 police OR fire OR military VR training 2025 2026 paper (no new confirmed papers)"
   ],
   "productive_sources": [
-    "National Geographic 'How a Nat Geo photographer captured...' — NatGeo photographers self-report equipment choices including Insta360 in 'How I shot it' style articles",
-    "IndieWire Sundance 2025 NARRATIVE features camera survey (different from documentary survey) — confirmed Insta360 in Magic Farm",
-    "IndieWire SXSW 2025 camera survey — confirmed Insta360 as one of 18 cameras in LifeHack"
+    "PetaPixel 'NYT Photographer on Antarctica Expedition Details His Extensive Camera Gear' (January 8, 2026) — confirmed Chang W. Lee using Insta360 Ace Pro 2 on Thwaites Glacier expedition. PetaPixel gear-profile articles for working photojournalists on major assignments are a reliable repeatable source."
   ],
   "blocked_sources": [
-    "nationalgeographic.com (403 WebFetch — bot detection, not paywall)",
     "indiewire.com (403 WebFetch — consistent)",
     "ymcinema.com (403 WebFetch — consistent)",
-    "kamehamedia.com (403 WebFetch)",
     "nofilmschool.com (403 WebFetch — consistent)",
-    "horrorgeeklife.com (SSL certificate error)",
-    "facebook.com (403 WebFetch — consistent)",
-    "marcuswestberg.photo (403 WebFetch)",
-    "isprs-annals.copernicus.org (403 WebFetch — consistent)",
-    "isprs-archives.copernicus.org (403 WebFetch — consistent)"
+    "kamehamedia.com (403 WebFetch — consistent)",
+    "cinematography.com (403 WebFetch — consistent)",
+    "dnyuz.com (403 WebFetch — bot detection on NYT mirror)",
+    "nationaltoday.com (403 WebFetch — bot detection)",
+    "movietimetoday.com (403 WebFetch)",
+    "ca.news.yahoo.com (403 WebFetch — consistent)",
+    "uk.news.yahoo.com (403 WebFetch — consistent)",
+    "petapixel.com (403 WebFetch — consistent; content confirmed via search snippets)",
+    "underwaterphotographeroftheyear.com (403 WebFetch)",
+    "changwlee.com (403 WebFetch)",
+    "m.imdb.com (403 WebFetch — IMDB news mirror)",
+    "article.wn.com (403 WebFetch)",
+    "Instagram posts — 403 for all direct Instagram URLs"
   ],
   "confirmed_exclusions_this_run": [
-    "Telmo dos Reis — already featured on Insta360 blog ('5 Tips for Filming a VR Nature Documentary in the African Savannah'; 'A Virtual Tour In The African Wilds Using Insta360 Pro')",
-    "Mstyslav Chernov / Alex Babenko (2000 Meters to Andriivka) — already in previous results",
-    "Sundance 2026 documentary survey — no Insta360 found in 2026 documentary survey"
+    "Team Dorothy / Mathieu Baptista — already on exclusion list (space edge-of-space story surfaced again)",
+    "Andy, Wildlife Ecologist from Stroud AU — likely Insta360 official Instagram post, cannot verify as organic creator",
+    "Cilian, Corrib Island Survey 2025 — Instagram post, cannot verify if organic or Insta360 official social media"
   ],
   "new_domains_found": [
-    "IndieWire Sundance NARRATIVE features camera survey (separate from documentary survey) — confirmed Insta360 use in Magic Farm; check this survey annually",
-    "IndieWire SXSW camera survey (narrative + documentary) — confirmed Insta360 use in LifeHack; mine every year",
-    "National Geographic 'How I shot it' format articles — NatGeo photographers self-report equipment; try 'site:nationalgeographic.com insta360' each run"
+    "PetaPixel gear-profile articles for working photojournalists on major assignments — reliably surfaces professional Insta360 use as secondary camera. Search pattern: 'petapixel [photographer] gear [expedition]'"
   ],
   "patterns": [
-    "National Geographic 'How a photographer captured' articles self-report specific cameras including Insta360 — this is a reliable source type not previously mined",
-    "IndieWire publishes SEPARATE camera surveys for narrative features AND documentaries at Sundance, SXSW — both should be searched each Week B run",
-    "Hot Docs, IDFA, Sheffield DocFest do NOT have equivalent IndieWire camera surveys — do not waste queries on these",
-    "Insta360 increasingly appears in festival films (Sundance, Berlinale, SXSW) as deliberate aesthetic choice for specific visual registers (social media, screenlife, vrite)",
-    "When Insta360 is 1 of many cameras (LifeHack: 1 of 18), confidence should be LOW — the story is weak without a dedicated filmmaker quote about Insta360 specifically",
-    "Magic Farm pattern: Insta360 used alongside cinema cameras to create social media visual language — new use-case archetype worth watching for future festivals",
-    "All major websites consistently return 403 for WebFetch — search snippet methodology is the correct approach; do not waste attempts on WebFetch for these sites"
+    "PetaPixel 'photographer shares full gear list' articles for major journalistic assignments are a reliable, repeatable source for finding professional Insta360 use",
+    "Instagram posts about 'meet [creator]' with Insta360 may be from Insta360's own social media feed — always verify the posting account before including as organic creator use",
+    "Festival film camera surveys for 2026 (IndieWire: SXSW, Sundance, Cannes) show ARRI dominance and no Insta360 visible — the 2025 festival surge in Insta360 use may not be repeating in 2026",
+    "Academic VR/clinical Insta360 papers have been heavily mined across previous runs; newly published 2025 papers are harder to find in this space",
+    "Week C (niche communities) is the hardest week type for finding confirmed new stories — DPReview forums, Vimeo, Reddit consistently return low results via Google search"
   ],
   "suggestions_for_next_run": [
-    "Week C: Try Reddit r/Insta360 for recent creative or unexpected uses (direct URL searches since site: search is blocked)",
-    "Try Vimeo Staff Picks for 360 content using Insta360 (vimeo.com/channels/staffpicks)",
-    "Try: Cannes 2025 camera survey — 'indiewire cannes 2025 cameras cinematographer insta360' (Cannes survey confirmed to exist in search results)",
-    "Try: 'indiewire 2025 fall camera survey insta360' — this survey covers 45 top fall 2025 films",
-    "Try: 'site:nationalgeographic.com insta360 2025 photographer' for more NatGeo photographer self-reports",
-    "Try: Marcus Westberg specifically — search his Instagram @marcuswestbergphotography or Twitter @TheLifeOfMarcus for the specific Insta360 model used in South Sudan",
-    "Try: Niche conservation photography forums, DPReview, LensWork for Insta360 mentions",
-    "Look for: Carlos Rigo Belliver follow-up — his next project may use Insta360 again; check carlosrigobellver.com",
-    "Try: 'insta360' conservation photographer 'first-ever' OR 'world first' OR 'never before' wildlife footage 2025 2026"
+    "Week A: Try Reddit r/Insta360, r/photojournalism, r/documentaryfilmmaking via Google for recent creative Insta360 uses",
+    "Try: 'petapixel' + 'gear' OR 'field kit' + 'expedition' + 'insta360' 2026 for more assignment photographer profiles",
+    "Try: Guardian / BBC / Wired 2026 for any Insta360 photographer or scientist profile",
+    "Try: IndieWire Cannes 2026 camera survey when more fully indexed (published this week, May 2026 — may contain Insta360 mentions not yet surfaced)",
+    "Try: Google Scholar 'Insta360' 2026 for newly published academic papers",
+    "Try: Wildlife Photographer of the Year 2026 and Nature TTL Awards — check winner equipment lists for Insta360 mentions",
+    "Try: 'site:youtube.com insta360 filming documentary 2025 2026' for YouTube filmmakers describing their kit",
+    "Try: Search for more NYT / WaPo / BBC / Guardian photographers who describe field gear and mention Insta360",
+    "Try: Conservation photography awards (Wildlife Conservation Society Photo Contest, iNaturalist, etc.) for Insta360 mentions"
   ],
-  "stories_found_count": 3,
+  "stories_found_count": 1,
   "high_confidence_count": 0,
   "week_type_rotation_log": [
-    {
-      "date": "2026-04-07",
-      "week_type": "B"
-    },
-    {
-      "date": "2026-04-09",
-      "week_type": "C"
-    },
-    {
-      "date": "2026-04-10",
-      "week_type": "C"
-    },
-    {
-      "date": "2026-04-12",
-      "week_type": "A"
-    },
-    {
-      "date": "2026-04-26",
-      "week_type": "B"
-    },
-    {
-      "date": "2026-04-28",
-      "week_type": "C"
-    },
-    {
-      "date": "2026-05-03",
-      "week_type": "A"
-    },
-    {
-      "date": "2026-05-10",
-      "week_type": "B"
-    }
+    {"date": "2026-04-07", "week_type": "B"},
+    {"date": "2026-04-09", "week_type": "C"},
+    {"date": "2026-04-10", "week_type": "C"},
+    {"date": "2026-04-12", "week_type": "A"},
+    {"date": "2026-04-26", "week_type": "B"},
+    {"date": "2026-04-28", "week_type": "C"},
+    {"date": "2026-05-03", "week_type": "A"},
+    {"date": "2026-05-10", "week_type": "B"},
+    {"date": "2026-05-17", "week_type": "C"}
   ]
 }

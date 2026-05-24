@@ -419,7 +419,24 @@
       "outreach_email": "",
       "outreach_instagram": "@nytchangster",
       "outreach_draft": "Subject: Your Insta360 Ace Pro 2 in Antarctica — Insta360 wants to tell this story\n\nDear Chang,\n\nI'm [Name] from Insta360's creator partnerships team. We read PetaPixel's coverage of your Antarctica expedition — and the detail that stayed with us is this: amid your Sony cameras, DJI drones, and sound-triggered calving detectors, you packed an Insta360 Ace Pro 2 to get into the blind spots.\n\nYou joined nearly 40 scientists on the Araon icebreaker, heading to the Thwaites Glacier — a glacier whose fate could change coastlines across the world. And part of how you covered it was with an Insta360 camera, reaching angles that no human hand could get to.\n\nAfter 30 years with the New York Times, you know better than anyone that the tools a photographer chooses reflect how seriously they take the story. We'd be honoured to tell our community about that choice — and about the story you were there to document.\n\nWould you be open to a brief conversation with our team?\n\nWith great respect,\n[Name]\nInsta360 Creator Partnerships"
+    },
+    {
+      "name": "Jonathan Cinnamon",
+      "location": "Kelowna, British Columbia, Canada (UBC Okanagan)",
+      "story_summary": "Associate Professor of Geography Jonathan Cinnamon at the University of British Columbia – Okanagan used an Insta360 ONE RS camera (1-inch dual-sensor edition) as the primary data-collection tool for place-based urban research. The team captured 205 360-degree videos of urban environments, coding them for digital platform objects — including dockless mobility devices, signage, stores, landmarks, and greenspace. The research developed two new analytical techniques for spherical 360° video data, reported in a 2025 peer-reviewed paper published in SAGE Journals.",
+      "product_used": "Insta360 ONE RS (1-inch 360 Edition)",
+      "why_it_matters": "A digital justice geographer at a major Canadian university explicitly chose the Insta360 ONE RS for its outdoor performance in variable urban light conditions as the backbone of a novel qualitative research methodology. Cinnamon's broader research programme also uses 360° cameras to document informal settlements and give marginalized urban communities a voice — with prior work in Johannesburg's informal settlements towards a 'visual data justice' framework. This opens Insta360 to a new audience: social scientists, data justice advocates, and urban researchers who need immersive spatial documentation tools.",
+      "source_link": "https://journals.sagepub.com/doi/10.1177/16094069251397351",
+      "source_quote": "Researchers chose the Insta360 ONE RS with dual one-inch imaging sensors for outside use in the highly variable light conditions of urban settings. This camera simultaneously captures video through 2 opposite-facing 180° lenses, and 'spatial' audio through 3 microphones.",
+      "source_type": "peer-reviewed academic journal (SAGE Journals, 2025)",
+      "confidence": "Low",
+      "run_date": "2026-05-24",
+      "human_reviewed": false,
+      "verification_note": "Camera 'Insta360 ONE RS with dual one-inch imaging sensors' explicitly named in multiple independent search snippets from the paper's methods section. Paper confirmed at SAGE DOI 10.1177/16094069251397351; URL returns 403 (consistent bot-detection pattern for academic journals in this database, not a paywall). Source quote is from search snippet — flag for human to verify verbatim accuracy against original article. Published 2025. Not on exclusion list. Not in previous results. FLAGGED: ONE RS is a 2022-era camera (older model). Source quote may be a paraphrase.",
+      "outreach_email": "jonathan.cinnamon@ubc.ca",
+      "outreach_instagram": "",
+      "outreach_draft": "Subject: Your Insta360 ONE RS research — Insta360 would love to tell your story\n\nDear Dr. Cinnamon,\n\nI'm [Name] from Insta360's creator partnerships team. Your 2025 paper '360-Degree Video for Whole Scene Capture: From Immersive Realism to Immersive Holism in Place-Based Research' caught our attention.\n\nYou chose the Insta360 ONE RS specifically for its ability to handle the highly variable light conditions of urban fieldwork — and used it to capture 205 place-based 360° videos as the backbone of a new qualitative research methodology for human geography.\n\nWhat struck us most is your broader research programme: you use 360° cameras to document informal settlements and give marginalized urban communities a voice in how they are represented — towards a 'visual data justice' framework. The idea that an Insta360 camera could be a tool for social justice and equitable representation of informal urban spaces is a story we have never told before.\n\nWe would love to feature your work in our Creator Stories blog and explore how Insta360 can support your ongoing research programme.\n\nWould you be open to a short conversation with our team?\n\nWith great respect for your work,\n[Name]\nInsta360 Creator Partnerships"
     }
   ],
-  "last_updated": "2026-05-17"
+  "last_updated": "2026-05-24"
 }

@@ -1,0 +1,40 @@
+{
+  "run_date": "2026-05-31",
+  "week_type": "B",
+  "stories": [
+    {
+      "name": "Hristina Hristova, Clemens Blattert, Bogdan Candrea, Janine Schweier (WSL Forest Team)",
+      "location": "Birmensdorf, Switzerland",
+      "story_summary": "A team of researchers at the Swiss Federal Institute for Forest, Snow and Landscape Research (WSL) used an Insta360 Pro 2 camera to capture 360-degree video transects of forest plots for automated 3D reconstruction. Their videogrammetry method \u2014 detailed in a paper published in Ecological Informatics on September 8, 2025 \u2014 achieved tree position errors of 5.2\u201318.8 cm and diameter at breast height (DBH) errors of 0.9\u20131.9 cm, demonstrating that a single-operator walk-through with an Insta360 Pro 2 can rival or complement traditional terrestrial LiDAR for forest inventory.",
+      "product_used": "Insta360 Pro 2",
+      "why_it_matters": "Swiss federal forest scientists used the Insta360 Pro 2 in a peer-reviewed methodology that could replace or supplement expensive LiDAR equipment for forest inventory across Europe \u2014 opening a completely new professional/scientific market segment for Insta360.",
+      "source_link": "https://www.sciencedirect.com/science/article/pii/S1574954125004078",
+      "source_quote": "A videogrammetry approach to reconstruct 3D point clouds in forest environments leveraging an Insta 360 Pro 2 acquisition setup",
+      "source_type": "peer-reviewed academic journal (Ecological Informatics, September 2025)",
+      "confidence": "Medium",
+      "run_date": "2026-05-31",
+      "human_reviewed": false,
+      "verification_note": "Insta360 Pro 2 appears in the paper title ('A study using Insta 360 Pro 2') and in search snippets describing the methodology. Paper published September 8, 2025 in Ecological Informatics (Elsevier). Source URL returns 403 on WebFetch (consistent Elsevier/ScienceDirect bot-detection; publicly accessible to humans). Authors confirmed at WSL via ResearchGate profiles and WSL DORA repository. Not on exclusion list. Not in previous results.",
+      "outreach_instagram": "@hrisi.hris",
+      "outreach_email": "hristina.hristova@wsl.ch",
+      "outreach_draft": "Subject: Your Insta360 Pro 2 forest research \u2014 Insta360 would love to feature this\n\nDear Hristina and team,\n\nI'm [Name] from Insta360's creator partnerships team. Your September 2025 paper in Ecological Informatics \u2014 'Enhancing forest inventory via a videogrammetry approach for robust 3D reconstruction: A study using Insta 360 Pro 2' \u2014 is one of the most compelling scientific uses of our camera we've seen.\n\nA single-operator forest walk with an Insta360 Pro 2, achieving position errors under 20 cm and DBH errors under 2 cm, is a genuinely practical result for forest managers and ecologists who can't afford LiDAR.\n\nWe'd love to feature your work in our Creator Stories blog. Would you be open to a short conversation?\n\nWith great respect,\n[Name]\nInsta360 Creator Partnerships"
+    },
+    {
+      "name": "Paola Di Giuseppantonio Di Franco, Francesca Dolcetti, Matteo Baraldo (REPLACE Project, University of Essex)",
+      "location": "Colchester, Essex, UK (fieldwork: Amatrice & Accumoli, Italy)",
+      "story_summary": "Archaeologist and digital heritage researcher Paola Di Giuseppantonio Di Franco and colleagues at the University of Essex used an Insta360 ONE RS (1-inch 360 edition) mounted on a 120 cm selfie stick to conduct walking interviews in Amatrice and Accumoli \u2014 towns devastated by the 2016 central Italy earthquake. Over 20 hours of 360-degree video footage was captured during place-centric ethnographic fieldwork for the UKRI Future Leader Fellowship project REPLACE (Rebuilding a Sense of Place). A paper analysing the methodology was published in Visual Communication (SAGE) in 2025 (doi: 10.1177/14703572251364346).",
+      "product_used": "Insta360 ONE RS (1-inch 360 edition)",
+      "why_it_matters": "UK academic researchers used the Insta360 ONE RS in post-disaster ethnographic fieldwork in earthquake-devastated Italian communities \u2014 combining social science, cultural heritage, and immersive 360 documentation in a UKRI-funded project with ongoing 2025 publications.",
+      "source_link": "https://journals.sagepub.com/doi/10.1177/14703572251364346",
+      "source_quote": "using a 360-degree camera (Insta360 One RS, 1-inch 360 edition) mounted on a 120 cm selfie stick and controlled via a smartphone",
+      "source_type": "peer-reviewed academic journal (Visual Communication, SAGE, 2025)",
+      "confidence": "Low-Medium",
+      "run_date": "2026-05-31",
+      "human_reviewed": false,
+      "verification_note": "Insta360 ONE RS explicitly named in multiple search snippets from SAGE and Google Scholar results. Paper published 2025 in Visual Communication. FLAGGED: Fieldwork dates March\u2013September 2023 (before Oct 2024 recency cutoff). Paper published 2025; REPLACE project active with multiple 2025 publications (companion paper doi:10.1177/16094069251331352; VR paper PMC12315841). Source URL returns 403 on WebFetch (SAGE bot-detection). Flag for human reviewer to assess recency.",
+      "outreach_instagram": "",
+      "outreach_email": "replace@essex.ac.uk",
+      "outreach_draft": "Subject: Your Insta360 ONE RS fieldwork in earthquake communities \u2014 Insta360 would love to feature this\n\nDear Paola and team,\n\nI'm [Name] from Insta360's creator partnerships team. Your REPLACE project \u2014 and the paper you published in Visual Communication this year \u2014 is one of the most humane and thoughtful uses of an Insta360 camera we have come across.\n\nYou used an Insta360 ONE RS to walk with residents through the ruins of their earthquake-destroyed homes and communities, capturing 20 hours of 360-degree ethnographic footage. The result is both rigorous social science and a deeply moving archive.\n\nWe'd love to feature the REPLACE project in our Creator Stories blog. Would you be open to a conversation?\n\nWith great respect,\n[Name]\nInsta360 Creator Partnerships"
+    }
+  ]
+}

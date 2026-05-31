@@ -1,39 +1,67 @@
 {
-  "last_updated": "2026-05-24",
-  "session_date": "2026-05-24",
-  "week_type_used": "A",
-  "next_week_type": "B",
-  "stories_found_count": 1,
+  "session_date": "2026-05-31",
+  "week_type_used": "B",
+  "next_week_type": "C",
+  "stories_found_count": 2,
   "high_confidence_count": 0,
-  "medium_confidence_count": 0,
-  "low_confidence_count": 1,
-  "session_notes": "Week A (Reddit+YouTube). Reddit completely inaccessible via WebFetch and site: search returns no results \u2014 persistent limitation. YouTube video pages return 403. Academic journals (SAGE, Frontiers, PubMed, PMC) return 403 (bot-detection pattern, not paywalls). Film trade press (IndieWire, NoFilmSchool, YMCinema) return 403. One story found: Jonathan Cinnamon (geography/urban research, UBC Okanagan) via SAGE Journals academic search. Camera: Insta360 ONE RS (1-inch 360 Edition). Confidence: Low \u2014 older camera model, source quote may be paraphrase. Searched: Cannes 2026 filmmakers (no verifiable Insta360 hits), SXSW 2026 (blocked), Badlands documentary (Stephan Wieser \u2014 could not confirm Insta360), 'Alone Across Gola' documentary (no Insta360 mention). Next run should use Week B (News+Academic) sources.",
+  "productive_queries": [
+    "insta360 pro 2 site:sciencedirect.com",
+    "insta360 forest inventory videogrammetry 2025",
+    "insta360 one rs site:sage journals 2025",
+    "insta360 ethnography 360 fieldwork 2025",
+    "WSL swiss forest insta360",
+    "university essex insta360 heritage"
+  ],
+  "unproductive_queries": [
+    "insta360 sundance 2026 filmmaker",
+    "insta360 site:theguardian.com 2025 2026",
+    "insta360 site:bbc.com 2025 2026",
+    "insta360 site:nationalgeographic.com 2025",
+    "insta360 site:wired.com 2025 2026",
+    "insta360 sled dog AP photographer evgeniy maloletka",
+    "antigravity project eternal insta360 (eliminated: formal partnership)",
+    "insta360 godfree ecology 2025 (eliminated: gopro max, not insta360)"
+  ],
   "blocked_sources": [
-    "reddit.com (WebFetch blocked + site: search returns no results)",
-    "youtube.com video pages (403)",
-    "scholar.google.com (403)",
-    "journals.sagepub.com (403 \u2014 bot detection)",
-    "frontiersin.org (403 \u2014 bot detection)",
-    "pubmed.ncbi.nlm.nih.gov (403 \u2014 bot detection)",
-    "pmc.ncbi.nlm.nih.gov (403 \u2014 bot detection)",
-    "indiewire.com (403)",
-    "nofilmschool.com (403)",
-    "ymcinema.com (403)"
+    "sciencedirect.com (403 bot-detection)",
+    "journals.sagepub.com (403 bot-detection)",
+    "pubmed.ncbi.nlm.nih.gov (403 bot-detection)",
+    "pmc.ncbi.nlm.nih.gov (403 bot-detection)",
+    "frontiersin.org (403 bot-detection)",
+    "indiewire.com (403 bot-detection)",
+    "nofilmschool.com (403 bot-detection)",
+    "ymcinema.com (403 bot-detection)",
+    "petapixel.com (403 bot-detection)",
+    "digitalcameraworld.com (403 bot-detection)",
+    "laughingsquid.com (403 bot-detection)",
+    "geo.tv (403)",
+    "euronews.com (403)",
+    "pbs.org (403)",
+    "wral.com (403)",
+    "derrickpress.com (403)"
   ],
-  "search_strategies_tried": [
-    "Cannes 2026 filmmakers insta360 camera",
-    "SXSW 2026 documentary insta360",
-    "insta360 X4 academic research 2025",
-    "insta360 ONE RS urban research geography",
-    "insta360 wildlife documentary 2025 expedition",
-    "insta360 rescue emergency services 2025",
-    "YouTube filmed with insta360 documentary 2025 (search snippets only \u2014 pages 403)"
+  "patterns_learned": [
+    "Week B (News+Academic) consistently produces academic papers as the most reliable source type \u2014 major news sources are largely blocked by bot detection",
+    "Paper titles themselves serve as source confirmation when the camera name appears in the title (as with WSL paper)",
+    "SAGE and ScienceDirect both block WebFetch but are confirmed via search snippet fragments",
+    "AP/wire service photography stories are very hard to verify: brand-specific camera names often stripped in intermediary coverage",
+    "Formal brand partnerships (e.g. Antigravity x Insta360) are disqualified even if not on exclusion list \u2014 must be genuinely undiscovered",
+    "Recency flag needed: some academic papers published 2025 report fieldwork from 2023 \u2014 flag for human reviewer",
+    "Multiple independent search snippet confirmations (3+) are sufficient for camera brand verification when WebFetch blocked"
   ],
-  "camera_models_confirmed_in_use": [
-    "Insta360 ONE RS (1-inch 360 Edition) \u2014 Jonathan Cinnamon, urban geography research"
+  "week_c_suggestions": [
+    "Reddit: r/insta360, r/360video, r/videography \u2014 look for active threads Oct 2024-present with first-person use",
+    "Niche forums: wetpixel.com (underwater), pprune.org (aviation), surveyorsforums.com",
+    "Vimeo: search 'insta360' with filter date:2024-2026, Staff Picks or niche channels",
+    "YouTube: small channels (<10k subscribers) with recent insta360 tutorials or field use",
+    "GitHub/academic repos: look for datasets or code referencing Insta360 cameras",
+    "Google Groups / specialist listservs for archaeology, ecology, emergency response"
   ],
-  "new_domains_found": [
-    "Urban geography / digital data justice (social science)"
-  ],
-  "week_rotation_note": "Week A = Reddit + YouTube. Week B = News + Academic. Week C = Niche communities. Rotate each Monday run."
+  "feedback": [
+    "Week B searches surface academic papers well \u2014 lean into Google Scholar + doi.org patterns",
+    "When paper title itself contains camera name, that is sufficient for Verification Check #1",
+    "Drop stories where brand cannot be confirmed directly (AP sled dog story: correct call to drop)",
+    "Low-Medium confidence stories should still be included with clear flags \u2014 human reviewer can decide",
+    "403 blocks are not failures \u2014 use search snippets as primary evidence when multiple fragments agree"
+  ]
 }

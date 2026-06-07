@@ -1,67 +1,81 @@
 {
-  "session_date": "2026-05-31",
-  "week_type_used": "B",
-  "next_week_type": "C",
+  "session_date": "2026-06-07",
+  "week_type_used": "C",
+  "next_week_type": "A",
   "stories_found_count": 2,
   "high_confidence_count": 0,
   "productive_queries": [
-    "insta360 pro 2 site:sciencedirect.com",
-    "insta360 forest inventory videogrammetry 2025",
-    "insta360 one rs site:sage journals 2025",
-    "insta360 ethnography 360 fieldwork 2025",
-    "WSL swiss forest insta360",
-    "university essex insta360 heritage"
+    "insta360 storm chaser OR tornado OR hurricane 2025 filming",
+    "Aaron Jayjack storm chaser Nebraska tornado June 2025 insta360 reframe 360 timelapse",
+    "Edgar O'Neal storm chaser insta360 TikTok 2025 camera footage tornado",
+    "'insta360 X5 OR X3 OR X4 storm chaser OR tornado' — surfaced TikTok and Facebook self-reported use",
+    "Aaron Jayjack insta360 camera model — confirmed 'Thank you Insta360 for the new X5 kit!' Facebook post"
   ],
   "unproductive_queries": [
-    "insta360 sundance 2026 filmmaker",
-    "insta360 site:theguardian.com 2025 2026",
-    "insta360 site:bbc.com 2025 2026",
-    "insta360 site:nationalgeographic.com 2025",
-    "insta360 site:wired.com 2025 2026",
-    "insta360 sled dog AP photographer evgeniy maloletka",
-    "antigravity project eternal insta360 (eliminated: formal partnership)",
-    "insta360 godfree ecology 2025 (eliminated: gopro max, not insta360)"
+    "site:reddit.com insta360 wildlife OR conservation OR expedition documentary 2025 (no results — Reddit deindexed)",
+    "site:reddit.com insta360 X5 OR X4 search rescue OR emergency 2025 (no results)",
+    "site:vimeo.com insta360 documentary OR expedition 2025 (no Insta360-specific results)",
+    "site:wetpixel.com insta360 2024 2025 (only homepage returned)",
+    "insta360 cave OR spelunking OR speleology exploration 2025 (no creator stories found)",
+    "insta360 volcano OR volcanology OR geology fieldwork 2025 (no creator stories found)",
+    "insta360 archaeology OR paleontology fieldwork 2025 forum OR reddit (2019 result only)",
+    "insta360 paragliding OR wingsuit OR BASE jump 2025 creator (Tarquin Cooper review only — not a creator story)",
+    "insta360 indigenous cultural documentation 2025 (no relevant results)",
+    "insta360 occupational therapy OR physical therapy 2025 (no results)",
+    "insta360 wildfire OR prescribed burn OR forest fire ranger 2025 (no results)"
+  ],
+  "productive_sources": [
+    "PetaPixel (Aaron Jayjack June 2025 — 403 bot-block but confirmed via search snippets)",
+    "Facebook (Aaron Jayjack public page — self-reported Insta360 X5 use and 'Thank you Insta360' post)",
+    "Twitter/X (@aaronjayjack — 'Great article inspired by my recent Insta 360 tornado intercept video')",
+    "TikTok (@edgarthestormchaser — explicit @insta360_official tags, first-person captions)",
+    "TwistedSifter (August 2025 — confirmed 'Insta360 5X camera' for Wallace/Wallfleet footage)",
+    "AccuWeather/Yahoo News (independent tornado coverage)"
   ],
   "blocked_sources": [
-    "sciencedirect.com (403 bot-detection)",
-    "journals.sagepub.com (403 bot-detection)",
-    "pubmed.ncbi.nlm.nih.gov (403 bot-detection)",
-    "pmc.ncbi.nlm.nih.gov (403 bot-detection)",
-    "frontiersin.org (403 bot-detection)",
-    "indiewire.com (403 bot-detection)",
-    "nofilmschool.com (403 bot-detection)",
-    "ymcinema.com (403 bot-detection)",
-    "petapixel.com (403 bot-detection)",
-    "digitalcameraworld.com (403 bot-detection)",
-    "laughingsquid.com (403 bot-detection)",
-    "geo.tv (403)",
-    "euronews.com (403)",
-    "pbs.org (403)",
-    "wral.com (403)",
-    "derrickpress.com (403)"
+    "twistedsifter.com (403)",
+    "inspiremore.com (403)",
+    "accuweather.com (403)",
+    "yahoo.com news (403)",
+    "facebook.com individual posts (403 — requires login)",
+    "tiktok.com individual videos (403)",
+    "wetpixel.com (403)",
+    "waterpixels.net (403)",
+    "davesearleguiding.com (403)",
+    "youtube.com (403)",
+    "xcmag.com (403)",
+    "edgarthestormchaser.com/about-7 (403)"
   ],
-  "patterns_learned": [
-    "Week B (News+Academic) consistently produces academic papers as the most reliable source type \u2014 major news sources are largely blocked by bot detection",
-    "Paper titles themselves serve as source confirmation when the camera name appears in the title (as with WSL paper)",
-    "SAGE and ScienceDirect both block WebFetch but are confirmed via search snippet fragments",
-    "AP/wire service photography stories are very hard to verify: brand-specific camera names often stripped in intermediary coverage",
-    "Formal brand partnerships (e.g. Antigravity x Insta360) are disqualified even if not on exclusion list \u2014 must be genuinely undiscovered",
-    "Recency flag needed: some academic papers published 2025 report fieldwork from 2023 \u2014 flag for human reviewer",
-    "Multiple independent search snippet confirmations (3+) are sufficient for camera brand verification when WebFetch blocked"
+  "new_domains_found": [
+    "edgarthestormchaser.com (storm chaser content creator website)",
+    "xcmag.com (leading paragliding magazine — rich Insta360 community coverage)",
+    "stormchasercoaching.com (Aaron Jayjack coaching business)",
+    "twistedsifter.com (pop-science aggregator that covered Jayjack timelapse)"
   ],
-  "week_c_suggestions": [
-    "Reddit: r/insta360, r/360video, r/videography \u2014 look for active threads Oct 2024-present with first-person use",
-    "Niche forums: wetpixel.com (underwater), pprune.org (aviation), surveyorsforums.com",
-    "Vimeo: search 'insta360' with filter date:2024-2026, Staff Picks or niche channels",
-    "YouTube: small channels (<10k subscribers) with recent insta360 tutorials or field use",
-    "GitHub/academic repos: look for datasets or code referencing Insta360 cameras",
-    "Google Groups / specialist listservs for archaeology, ecology, emergency response"
+  "patterns": [
+    "Storm chasers have organically adopted Insta360 as a key tool for 360-degree tornado documentation — rich undiscovered niche",
+    "The '360 reframe timelapse' format (compressing hours of storm footage into 1-minute loops) is a creator format unique to Insta360 and worth featuring",
+    "Insta360 appears to proactively send gear kits to content creators without formally featuring them — 'Thank you Insta360' social posts are reliable signals of undiscovered gifted-but-not-featured creators",
+    "TikTok first-person posts tagging @insta360_official are reliable self-reported confirmation of organic Insta360 use",
+    "Week C (niche communities) is harder for finding new stories than Week B (academic/news) — site: operators consistently fail on Reddit/Vimeo; niche forums block WebFetch",
+    "site:reddit.com searches return no results — Reddit has deindexed most content from Google search crawlers",
+    "Niche magazines (xcmag.com, wetpixel.com) block WebFetch but are worth checking directly for community-specific creator stories",
+    "Two stories from the same niche (storm chasing) reduces diversity — future runs should explicitly diversify across niches"
+  ],
+  "suggestions_for_next_run": [
+    "Week A: Reddit + YouTube — try searching 'insta360' on r/meteorology, r/stormchasing, r/ultrarunning, r/cycling directly (without site: operator)",
+    "Look for creators who posted 'Thank you Insta360 for sending me' or 'Insta360 gifted me' on Instagram/TikTok — these are undiscovered gifted creators not yet officially featured",
+    "Storm chasing community is rich with Insta360 users — look for tornado intercept creators beyond Jayjack and O'Neal (e.g., check if Reed Timmer is on exclusion list)",
+    "YouTube search: 'Insta360 X5 tornado' OR 'insta360 storm chasing' — filter by upload date 2025-2026, sort by view count",
+    "Paragliding niche (xcmag.com): fetch XCMag article list directly, look for pilots beyond Tarquin Cooper who self-film with Insta360",
+    "Try 'insta360 [username] thank you' searches on Twitter/X to find creators who got gear from Insta360 but haven't been formally featured",
+    "Look for ocean sailing / round-the-world sailing with Insta360 — The Ocean Race has content creators"
   ],
   "feedback": [
-    "Week B searches surface academic papers well \u2014 lean into Google Scholar + doi.org patterns",
-    "When paper title itself contains camera name, that is sufficient for Verification Check #1",
-    "Drop stories where brand cannot be confirmed directly (AP sled dog story: correct call to drop)",
-    "Low-Medium confidence stories should still be included with clear flags \u2014 human reviewer can decide",
-    "403 blocks are not failures \u2014 use search snippets as primary evidence when multiple fragments agree"
+    "Week C niche community searches are harder than Week B academic searches — Reddit deindexing and niche forum 403s significantly limit discovery",
+    "For storm chasing/tornado content, direct searches on creator names work better than community/platform searches",
+    "Two stories from same niche (storm chasing) is acceptable if the angles are genuinely different (technical artistry vs. public safety education), but aim for more diversity next run",
+    "When Insta360 proactively sends gear to a creator ('Thank you Insta360 for the new X5 kit'), note the caveat but still include — not being officially featured is what matters",
+    "The TikTok @insta360_official tag in creator posts is a gold standard for self-reported use verification when WebFetch can't access the post directly"
   ]
 }

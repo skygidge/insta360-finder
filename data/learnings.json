@@ -1,82 +1,52 @@
 {
-  "session_date": "2026-06-14",
-  "week_type_used": "A",
-  "next_week_type": "B",
-  "productive_queries": [
-    "Sam Laming wingsuit BASE jump insta360 2025 YouTube creator filmmaker",
-    "'Flying Dawn Marie' national park drone ban insta360 X5 filmmaker travel creator Yosemite Death Valley 2025",
-    "wingsuit BASE jump 2025 Italy Switzerland Slovenia 'insta360' YouTube channel creator name POV documentary",
-    "'My Scariest Wingsuit BASE jump' '#insta360' 2024 YouTube creator channel name"
+  "next_week_type": "C",
+  "history": [
+    {
+      "session_date": "2026-06-21",
+      "week_type_used": "B",
+      "stories_found_count": 3,
+      "high_confidence_count": 0,
+      "productive_queries": [
+        "coral reef soundscapes 360 video insta360 bioacoustics",
+        "Dantzker FishEye Collaborative insta360 underwater",
+        "Lukasz Mazur MaiaZura insta360 VR operating room surgical",
+        "nature engagement 360 video Calogiuri insta360 wellbeing"
+      ],
+      "unproductive_queries": [
+        "Reddit (deindexed \u2014 no results)",
+        "YouTube (403 bot detection)",
+        "USGS NOAA fieldwork insta360",
+        "paleontology archaeology insta360 360 camera",
+        "speleology cave 360 camera insta360",
+        "geoscience virtual outcrop insta360",
+        "Sundance 2026 documentary cameras IndieWire (no Insta360)",
+        "weather climate journalist filmmaker insta360",
+        "NatGeo photographer insta360 (no new results)"
+      ],
+      "new_domains_found": [
+        "fisheyecollaborative.org (conservation bioacoustics, high-quality source for scientific Insta360 use)"
+      ],
+      "blocked_sources": [
+        "besjournals.onlinelibrary.wiley.com (403 bot detection)",
+        "mededu.jmir.org (403 bot detection)",
+        "games.jmir.org (403 bot detection)",
+        "sciencedirect.com (403)",
+        "researchgate.net (403)",
+        "eurekalert.org (403)",
+        "phys.org (403)"
+      ],
+      "notes": "Week B academic strategy produced 3 stories but 0 high-confidence. All journal URLs blocked by bot detection \u2014 rely on search snippet quotes. Medical VR stories now over-represented (6 total including this run). Week C should target niche communities, Vimeo, and non-medical applications. Best story: Marc Dantzker UPAC-360 coral reef bioacoustics (Methods in Ecology and Evolution Sept 2025)."
+    }
   ],
-  "unproductive_queries": [
-    "site:reddit.com insta360 + any topic (Reddit deindexed — zero results)",
-    "insta360 ultrarunning OR trail running OR ultra marathon 2025 YouTube creator documentary",
-    "insta360 ocean sailing OR round the world OR The Ocean Race 2025 creator filmmaker",
-    "insta360 paragliding OR free flying OR wingsuit 2025 YouTube creator POV (Touching the Sky VR used custom cameras, not Insta360)",
-    "insta360 X4 OR X5 mountaineering OR climbing OR alpinism expedition 2025 2026",
-    "insta360 cycling OR bikepacking OR gravel 2025 creator documentary YouTube expedition",
-    "insta360 adaptive sports OR disabled OR wheelchair OR accessibility 2025 creator filmmaker",
-    "insta360 cold water swimming OR ice swimming OR wild swimming 2025 creator",
-    "insta360 UTMB OR ultratrail OR Leadville 100 trail running 2025 creator",
-    "Godfree Knerr pannotator ecology 2025 (used GoPro Max, not Insta360)",
-    "Vendée Globe 2024 insta360 sailor (institutional use only, not creator story)"
-  ],
-  "productive_sources": [
-    "YouTube search snippets (Sam Laming wingsuit channel confirmed via video title tags)",
-    "collabstr.com (Sam Laming profile confirmed Insta360 ONE X2 use)",
-    "flyingdawnmarie.com (confirmed Insta360 X5 review at national parks via search snippets)",
-    "kentonline.co.uk (confirmed Sam Laming's media coverage, Montserrat flyby story)"
-  ],
-  "blocked_sources": [
-    "reddit.com (completely blocked — deindexed from Google, WebFetch returns error)",
-    "youtube.com (403 bot-detection — consistent with all previous YouTube WebFetch attempts)",
-    "xcmag.com (403 bot-detection)",
-    "collabstr.com (403 bot-detection)",
-    "thestrad.com (403 bot-detection)",
-    "qest.org.uk (403 bot-detection)",
-    "flyingdawnmarie.com (403 bot-detection)",
-    "singletracks.com (403 bot-detection)",
-    "trailrunmag.com (403 bot-detection)",
-    "petapixel.com (403 bot-detection)",
-    "surfd.com (403 bot-detection)",
-    "bikepacking.com (403 bot-detection)"
-  ],
-  "new_domains_found": [
-    "collabstr.com (creator marketplace with detailed athlete/content creator profiles including camera gear — useful for finding specific equipment)",
-    "thestrad.com (classical music magazine with creator profile of Sam Laming — unusual crossover source)",
-    "qest.org.uk (QEST scholarship alumni profiles — unique source for British craft/artisan creators with dual careers)",
-    "kentonline.co.uk (regional UK news covering local extreme sports achievements)"
-  ],
-  "patterns": [
-    "Week A (Reddit + YouTube) is the hardest week type — Reddit deindexing makes r/Insta360 browsing impossible via web search, and YouTube consistently blocks WebFetch",
-    "The most productive Week A approach is to find a specific person's name first, then search '[name] insta360' to confirm the connection",
-    "YouTube video titles with #insta360 in the title are reliable self-reported use signals even without being able to WebFetch the video",
-    "Wingsuit BASE jumping is a rich undiscovered niche for Insta360 — multiple creators are using Insta360 to document proximity flights",
-    "National park travel bloggers who use Insta360 as a drone substitute represent an underserved niche",
-    "The 'creator with two lives' story (wingsuit jumper + luthier) is significantly more compelling than a standard outdoor creator story",
-    "Collabstr.com creator profiles often list specific camera gear, making them useful secondary confirmation sources",
-    "Most niche sports/adventure communities block WebFetch, limiting discoverability",
-    "Week A should supplement with targeted searches on specific known creator names rather than relying on topical searches"
-  ],
-  "suggestions_for_next_run": [
-    "Week B: Return to academic searches — look for 'insta360' in environmental science, climate research, and conservation biology journals (NOT medical, which is saturated)",
-    "Week B: Try Google Scholar directly: 'insta360' 2025 conservation OR ecology OR geology OR ocean OR marine",
-    "Week B: Search for Insta360 used by USGS, NOAA, or specific government science agencies in fieldwork 2025-2026",
-    "Week B: Look for Insta360 in climate journalism from 2025 — NYT Climate, Guardian Climate, Inside Climate News",
-    "Week B: Try National Geographic stories from 2025-2026 for Insta360 mentions beyond Marcus Westberg",
-    "Week B: Look for Insta360 in new academic disciplines not yet covered: human geography, visual anthropology, sports science",
-    "For future Week A runs: search for specific YouTube channel playlists using insta360 in extreme sports not in the database",
-    "Try searching for wingsuit BASE jumpers beyond Sam Laming who use Insta360 — this niche is rich",
-    "Use 'Collabstr.com [sport/niche]' searches to find creator profiles that list Insta360 camera gear",
-    "Prioritise finding creators with 'two lives' stories as these generate more compelling narratives"
-  ],
-  "stories_found_count": 2,
-  "high_confidence_count": 0,
   "feedback": [
-    "Week A searches are significantly harder than Week B academic searches — Reddit deindexing and YouTube bot-blocking mean the best results come from searching specific creator names, not topics",
-    "For Week A, the most effective strategy is: (1) identify plausible niche, (2) find a specific event or video, (3) search for the creator's name, (4) confirm '[name] insta360'",
-    "Wingsuit BASE jumping niche is newly confirmed as rich with Insta360 users — future runs should explore Sam Laming's YouTube channel for specific model and look for other wingsuit Insta360 creators",
-    "The 'drone-free national park' angle for Insta360 is a compelling use case worth exploring with other national park travel creators",
-    "Week A runs produce fewer stories than Week B runs — acceptable if quality is high; aim for 2-3 verified stories per Week A run"
+    "Reddit is completely deindexed \u2014 never search Reddit, zero results guaranteed",
+    "YouTube returns 403 for all content \u2014 skip YouTube searches",
+    "Academic journal pages (Wiley, JMIR, ScienceDirect, ResearchGate) all return 403 to WebFetch \u2014 use search snippet quotes instead",
+    "Week B (academic) consistently yields peer-reviewed sources \u2014 high credibility, but harder to contact",
+    "Medical/surgical VR training is over-represented \u2014 deprioritize in future runs (6 stories now)",
+    "fisheyecollaborative.org is a promising domain for conservation science + Insta360 stories",
+    "Sundance 2026 documentary camera survey did not list Insta360 (unlike 2025) \u2014 skip film festival surveys for now",
+    "Google Scholar search snippets often contain the key quote needed \u2014 use them as primary verification when journal 403s",
+    "Week C should focus on: Vimeo creator community, 360Cities, DroneDJ forums, immersive journalism networks, non-medical niche uses"
   ]
 }

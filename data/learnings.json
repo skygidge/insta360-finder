@@ -1,5 +1,5 @@
 {
-  "next_week_type": "C",
+  "next_week_type": "A",
   "history": [
     {
       "session_date": "2026-06-21",
@@ -13,7 +13,7 @@
         "nature engagement 360 video Calogiuri insta360 wellbeing"
       ],
       "unproductive_queries": [
-        "Reddit (deindexed \u2014 no results)",
+        "Reddit (deindexed — no results)",
         "YouTube (403 bot detection)",
         "USGS NOAA fieldwork insta360",
         "paleontology archaeology insta360 360 camera",
@@ -35,18 +35,52 @@
         "eurekalert.org (403)",
         "phys.org (403)"
       ],
-      "notes": "Week B academic strategy produced 3 stories but 0 high-confidence. All journal URLs blocked by bot detection \u2014 rely on search snippet quotes. Medical VR stories now over-represented (6 total including this run). Week C should target niche communities, Vimeo, and non-medical applications. Best story: Marc Dantzker UPAC-360 coral reef bioacoustics (Methods in Ecology and Evolution Sept 2025)."
+      "notes": "Week B academic strategy produced 3 stories but 0 high-confidence. All journal URLs blocked by bot detection — rely on search snippet quotes. Medical VR stories now over-represented (6 total including this run). Week C should target niche communities, Vimeo, and non-medical applications. Best story: Marc Dantzker UPAC-360 coral reef bioacoustics (Methods in Ecology and Evolution Sept 2025)."
+    },
+    {
+      "session_date": "2026-06-28",
+      "week_type_used": "C",
+      "stories_found_count": 2,
+      "high_confidence_count": 1,
+      "productive_queries": [
+        "Insta360 X4 IEEE VR 2026 archaeology heritage photogrammetry arXiv",
+        "Nevis Digital Twin SJSU XRI Lab Insta360 photogrammetry",
+        "npj Heritage Science 2026 Insta360 X3 virtual tour heritage",
+        "Gdańsk Mariacka DAda-Lab DA-Lab GdańskTech npj Heritage Science 2026",
+        "Justyna Borucka GdańskTech DA-Lab architecture",
+        "Francesca Picchio University of Pavia DAda-Lab"
+      ],
+      "unproductive_queries": [
+        "Insta360 vimeo filmmaker documentary 360 immersive 2025 2026 (no new undiscovered creators)",
+        "Internet Archaeology 65 HS2 Sparrow Insta360 (published Feb 2024, before Oct 2024 cutoff)",
+        "Godfree pannotator Insta360 X4 ecology (paper uses GoPro Max/DJI, not Insta360 primarily)",
+        "Insta360 wildlife marine ecology arXiv nature plos (no confirmed new stories)",
+        "Insta360 indigenous oral history documentary 2025 2026 (no relevant results)"
+      ],
+      "new_domains_found": [
+        "arxiv.org preprints (IEEE VR 2026 proceedings accessible as arXiv PDFs)",
+        "npj Heritage Science / Nature (consistently productive for Insta360 heritage stories)"
+      ],
+      "blocked_sources": [
+        "arxiv.org/html/* (403 Forbidden via proxy)",
+        "arxiv.org/abs/* (403 Forbidden via proxy)",
+        "nature.com full articles (403 Forbidden via proxy)",
+        "api.crossref.org (403 Forbidden via proxy)",
+        "api.semanticscholar.org (403 Forbidden via proxy)",
+        "riviste.fupress.net (403 Forbidden via proxy)"
+      ],
+      "notes": "Week C niche strategy found 2 confirmed stories via arXiv/IEEE VR 2026 and npj Heritage Science (Nature). Both from heritage/archaeology niche. Vimeo, 360Cities, DroneDJ, and immersive journalism searches produced no new undiscovered creators this run. Search engine snippets remain the best workaround for 403-blocked journal pages — and were essential for finding the Gdańsk author names (Borucka + Picchio). Week A next."
     }
   ],
   "feedback": [
-    "Reddit is completely deindexed \u2014 never search Reddit, zero results guaranteed",
-    "YouTube returns 403 for all content \u2014 skip YouTube searches",
-    "Academic journal pages (Wiley, JMIR, ScienceDirect, ResearchGate) all return 403 to WebFetch \u2014 use search snippet quotes instead",
-    "Week B (academic) consistently yields peer-reviewed sources \u2014 high credibility, but harder to contact",
-    "Medical/surgical VR training is over-represented \u2014 deprioritize in future runs (6 stories now)",
+    "Reddit is completely deindexed — never search Reddit, zero results guaranteed",
+    "YouTube returns 403 for all content — skip YouTube searches",
+    "Academic journal pages (Wiley, JMIR, ScienceDirect, ResearchGate) all return 403 to WebFetch — use search snippet quotes instead",
+    "Week B (academic) consistently yields peer-reviewed sources — high credibility, but harder to contact",
+    "Medical/surgical VR training is over-represented — deprioritize in future runs (6 stories now)",
     "fisheyecollaborative.org is a promising domain for conservation science + Insta360 stories",
-    "Sundance 2026 documentary camera survey did not list Insta360 (unlike 2025) \u2014 skip film festival surveys for now",
-    "Google Scholar search snippets often contain the key quote needed \u2014 use them as primary verification when journal 403s",
+    "Sundance 2026 documentary camera survey did not list Insta360 (unlike 2025) — skip film festival surveys for now",
+    "Google Scholar search snippets often contain the key quote needed — use them as primary verification when journal 403s",
     "Week C should focus on: Vimeo creator community, 360Cities, DroneDJ forums, immersive journalism networks, non-medical niche uses"
   ]
 }

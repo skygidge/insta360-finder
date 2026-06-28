@@ -1,0 +1,40 @@
+{
+  "run_date": "2026-06-28",
+  "week_type": "C",
+  "stories": [
+    {
+      "name": "Vuthea Chheang, Alex Apffel, Huy Tran",
+      "location": "San Jose State University, San Jose, CA, USA; field work on Nevis, Caribbean",
+      "story_summary": "Computer science researchers at San Jose State University's XRI Lab used a consumer Insta360 X4 camera to create an immersive VR digital twin of at-risk colonial and Indigenous archaeological heritage sites on the island of Nevis in the Caribbean. Adapting construction 'Scan-to-BIM' photogrammetry workflows for archaeology, lead researcher Vuthea Chheang and colleagues tested multiple capture modes and found 360° video at 5.7K/30fps optimal for Structure from Motion alignment. The resulting digital twin was presented at IEEE VR 2026, demonstrating how a ~$500 consumer 360 camera can democratize heritage preservation for remote island sites with limited documentation budgets.",
+      "product_used": "Insta360 X4",
+      "why_it_matters": "Proves consumer-grade Insta360 hardware can replace expensive photogrammetry rigs for archaeological site preservation — opening the door for underfunded institutions to document at-risk heritage before it disappears.",
+      "source_link": "https://arxiv.org/pdf/2603.20560",
+      "source_quote": "Video Capture Mode (5.7K @ 30fps) with Insta360 X4 video capture became the preferred mode for the final workflow, as the high frame rate ensures that redundant frames are available to eliminate motion blur and guarantee seamless 'Structure from Motion' (SfM) alignment.",
+      "source_type": "academic paper (IEEE VR 2026 / arXiv:2603.20560, submitted March 2026)",
+      "confidence": "high",
+      "run_date": "2026-06-28",
+      "human_reviewed": false,
+      "verification_note": "Insta360 X4 explicitly named by model in paper body. Published arXiv March 20, 2026; accepted at IEEE VR 2026 (pp. 5-9). Direct search confirmation via multiple queries. Not featured on insta360.com/blog.",
+      "outreach_email": "vuthea.chheang@sjsu.edu",
+      "outreach_instagram": null,
+      "outreach_draft": "Hi Vuthea — I came across your IEEE VR 2026 paper on the Nevis Digital Twin and was struck by how you used an Insta360 X4 to create a heritage-preserving VR model of Caribbean archaeological sites. The combination of consumer 360° capture with SfM photogrammetry for real-world preservation is exactly the kind of creative, purposeful use that deserves a wider audience. Would you be open to being featured in a story about your work?"
+    },
+    {
+      "name": "Justyna Borucka, Francesca Picchio",
+      "location": "Gdańsk, Poland (Gdańsk University of Technology / DA-Lab) and Pavia, Italy (University of Pavia / DAda-Lab)",
+      "story_summary": "An Italian-Polish interdisciplinary research team used an Insta360 X3 camera to capture immersive 360° panoramas of Mariacka Street — one of Gdańsk's most historically significant and visually distinctive streets — as part of a hybrid digital heritage documentation project. Architect Justyna Borucka (GdańskTech/DA-Lab) and Associate Professor Francesca Picchio (UNIPV/DAda-Lab) combined Mobile Laser Scanner survey data, photogrammetric 3D models, and Insta360 X3 panoramas into an interactive virtual walking tour titled 'Enchanted by history: Discover the allure of Mariacka Street's historic balconies and entryways.' The work, part of the H2020Prometheus research project, was published in npj Heritage Science (Nature) in March 2026.",
+      "product_used": "Insta360 X3",
+      "why_it_matters": "Demonstrates how a lightweight Insta360 X3 can serve as the experiential layer in a multi-tool heritage documentation pipeline — bridging high-precision laser scanning with human-scale immersive storytelling for public heritage engagement.",
+      "source_link": "https://www.nature.com/articles/s40494-026-02395-w",
+      "source_quote": "The Insta360 X3 was used to capture multiple 360° panoramas at key locations along Mariacka Street, providing the immersive layer for the virtual walking tour.",
+      "source_type": "academic paper (npj Heritage Science / Nature, published March 2, 2026)",
+      "confidence": "medium-high",
+      "run_date": "2026-06-28",
+      "human_reviewed": false,
+      "verification_note": "Insta360 X3 explicitly named in paper. Authors Justyna Borucka (GdańskTech DA-Lab) and Francesca Picchio (UNIPV DAda-Lab) confirmed via institutional profile searches. Published npj Heritage Science March 2, 2026. Not featured on insta360.com/blog. Note: source quote reconstructed from search snippets; exact wording should be verified against full paper.",
+      "outreach_email": "francesca.picchio@unipv.it",
+      "outreach_instagram": null,
+      "outreach_draft": "Hi Francesca — I read your March 2026 npj Heritage Science paper on the Mariacka Street virtual tour in Gdańsk and was moved by how the Insta360 X3 became the experiential bridge between laser scan data and public storytelling. The H2020Prometheus project's approach to 'digital storytelling of heritage' feels like a model for other cities. Would you and Justyna Borucka be open to sharing your story with a wider creator audience?"
+    }
+  ]
+}

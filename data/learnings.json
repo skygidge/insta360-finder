@@ -1,5 +1,5 @@
 {
-  "next_week_type": "A",
+  "next_week_type": "B",
   "history": [
     {
       "session_date": "2026-06-21",
@@ -70,6 +70,45 @@
         "riviste.fupress.net (403 Forbidden via proxy)"
       ],
       "notes": "Week C niche strategy found 2 confirmed stories via arXiv/IEEE VR 2026 and npj Heritage Science (Nature). Both from heritage/archaeology niche. Vimeo, 360Cities, DroneDJ, and immersive journalism searches produced no new undiscovered creators this run. Search engine snippets remain the best workaround for 403-blocked journal pages — and were essential for finding the Gdańsk author names (Borucka + Picchio). Week A next."
+    },
+    {
+      "session_date": "2026-07-19",
+      "week_type_used": "A (adapted — Reddit/YouTube blocked; pivoted to news, PBS/NPR, academic journals)",
+      "stories_found_count": 2,
+      "high_confidence_count": 2,
+      "productive_queries": [
+        "insta360 biology professor ecology virtual field trip university course 2025 2026",
+        "insta360 X4 educator 360 video undergraduate course habitat ecology published 2025 2026",
+        "'Insta360 X4' biology professor ecology course virtual field trip paper journal",
+        "insta360 OR '360 camera' marine scientist scuba diver graduate student fieldwork 2025 2026 news",
+        "FGCU insta360 OR '360 camera' water school marine science student 2025 2026",
+        "insta360 scuba OR underwater VR project university student graduate 2025 2026"
+      ],
+      "unproductive_queries": [
+        "Reddit searches (confirmed deindexed — zero results)",
+        "YouTube searches (confirmed 403 — all blocked)",
+        "insta360 researcher scientist graduate student project publication news 2025 2026 (too broad, no new results)",
+        "insta360 documentary film journalist PBS NPR AP Atlantic 2025 2026 (no Insta360-specific results)",
+        "BBC Sky at Night astrophotography insta360 (only first name 'Greg' found — insufficient for outreach)",
+        "URI Coastal Resources Center aquaculture VR insta360 (abstract PDF returned 403, no named researcher)",
+        "Geoscience Communication 2026 Malm 360 video (used generic '360-degree video camera', not Insta360)"
+      ],
+      "new_domains_found": [
+        "online.ucpress.edu (UCPress — American Biology Teacher journal; productive for STEM education + Insta360)",
+        "wgcu.org (WGCU PBS/NPR Fort Myers — returned accessible article with explicit Insta360 mention)"
+      ],
+      "blocked_sources": [
+        "direct article fetch online.ucpress.edu (403 bot detection — use Google Scholar snippet instead)",
+        "fisheyecollaborative.org (403 — still blocked)",
+        "web.uri.edu abstract PDF (403)"
+      ],
+      "eliminated_candidates": [
+        "BBC Sky at Night astrophotographer 'Greg' (first name only, can't outreach)",
+        "URI Coastal Resources aquaculture VR researcher (PDF 403, no named individual found)",
+        "Geoscience Communication 2026 Malm et al. (360° video but brand not named as Insta360)",
+        "Insta360 Shark Awareness Day 2026 campaign creators — ZimyDaKid, Ari Rabin-Havt, Roy Mauritsen, Andy Casagrande IV (all are official Insta360 campaign partners, already known to Insta360)"
+      ],
+      "notes": "Week A adapted strategy produced 2 high-confidence stories — both Insta360 X4, both in educational/scientific contexts. The American Biology Teacher (UCPress) is a strong source for education + Insta360. WGCU PBS/NPR returned accessible snippets with explicit Insta360 mentions. Both stories are from the 'educator/scientist independently chooses Insta360' pattern — compelling authenticity. Medical VR over-representation noted in prior runs; this run has no medical stories. Next week type: B (academic journals — use Google Scholar snippets, focus on conservation biology and non-medical niche science)."
     }
   ],
   "feedback": [
@@ -81,6 +120,11 @@
     "fisheyecollaborative.org is a promising domain for conservation science + Insta360 stories",
     "Sundance 2026 documentary camera survey did not list Insta360 (unlike 2025) — skip film festival surveys for now",
     "Google Scholar search snippets often contain the key quote needed — use them as primary verification when journal 403s",
-    "Week C should focus on: Vimeo creator community, 360Cities, DroneDJ forums, immersive journalism networks, non-medical niche uses"
+    "Week C should focus on: Vimeo creator community, 360Cities, DroneDJ forums, immersive journalism networks, non-medical niche uses",
+    "The American Biology Teacher (UCPress) is a productive source for STEM educator + Insta360 stories — use Google Scholar snippet quotes",
+    "WGCU.org (PBS/NPR local affiliate) returns full article text accessible via WebSearch — check local PBS/NPR affiliates near university towns",
+    "Official Insta360 campaign creators (Shark Awareness Day etc.) appear in search results but are already known to Insta360 — check against exclusion list immediately",
+    "The 'educator/scientist independently selects Insta360' pattern (price point cited, app-based controls cited) is highly credible and compelling — prioritize these stories",
+    "Week A searches productive when re-routed from Reddit/YouTube to local news, PBS/NPR affiliates, and academic journal search snippets"
   ]
 }

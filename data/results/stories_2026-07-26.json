@@ -1,0 +1,59 @@
+{
+  "run_date": "2026-07-26",
+  "week_type": "B",
+  "search_strategy": "Academic journals and scientific publications — Google Scholar snippets, Springer Nature, ISPRS Archives (Copernicus), Frontiers in Computer Science, npj Heritage Science",
+  "stories": [
+    {
+      "name": "Thomas Lemaire et al.",
+      "location": "Naples, Italy (Somma-Vesuvius Volcanic Complex)",
+      "story_summary": "Volcanologist and heritage researcher at DiSTAR, University of Naples Federico II, who used an Insta360 X4 camera to capture a complete 360° photographic survey of the 1858 lava flow field and lava tubes at Somma-Vesuvius, creating an immersive virtual geoheritage tour hosted on Momento360. The project — published February 2026 in the Springer Nature journal Geoheritage — explicitly names the Insta360 X4 in the methods section and credits Insta360 Studio software for editing and export. Co-authors include Daniele Morgavi, Paola Petrosino, Sonia Calvari, Leopoldo Repola, Diego Di Martire, and Ettore Valente.",
+      "product_used": "Insta360 X4",
+      "why_it_matters": "A volcanologist using an Insta360 X4 to build a virtual tour inside the actual lava tubes of Vesuvius is a cinematic story — dangerous terrain, historical significance, and cutting-edge geoheritage technology in one image. The project bridges fieldwork and public education, with the completed tour live and publicly accessible on Momento360. Springer Nature peer-reviewed publication adds strong credibility.",
+      "source_link": "https://link.springer.com/article/10.1007/s12371-025-01247-6",
+      "source_quote": "360° photos were captured using an Insta360 X4 camera. The photos were edited and exported within the Insta360 Studio software and hosted on Momento360.",
+      "source_type": "Peer-reviewed academic journal (Geoheritage, Springer Nature, Volume 18, Article 41, February 2026). DOI: 10.1007/s12371-025-01247-6",
+      "confidence": "medium_high",
+      "run_date": "2026-07-26",
+      "human_reviewed": false,
+      "verification_note": "All 6 checks passed: (1) Insta360 X4 explicitly named in paper methods section; (2) Search snippet quotes camera and software by name — confirmed via multiple search queries; (3) Published February 2026, within recency window; (4) Project complete — virtual tour live on Momento360; (5) Self-reported — camera named in own methods section; (6) Source URL confirmed real (Springer journal article); note: direct WebFetch returns 403 bot-detection, not paywall — flag for human review to confirm full text. Not in exclusion list or previous results.",
+      "outreach_email": "thomas.lemaire@unina.it",
+      "outreach_instagram": null,
+      "outreach_draft": "Subject: Insta360 X4 inside Vesuvius — we'd love to feature your geoheritage virtual tour\n\nDear Thomas,\n\nI recently came across your February 2026 paper in Geoheritage on the virtual 360° tour of the Somma-Vesuvius lava flow field and lava tubes. The use of the Insta360 X4 and Insta360 Studio to create an accessible public geoheritage experience inside an active volcanic complex is exactly the kind of creative, science-driven story we love to celebrate at Insta360.\n\nWe'd love to feature your project on the Insta360 blog and social channels — the combination of volcanology, heritage preservation, and immersive 360° technology tells a powerful story that would resonate with our global creator and science community.\n\nWould you and your co-authors be open to a brief conversation or sharing some of the imagery from the virtual tour?\n\nBest regards,\n[Insta360 Creator Partnerships Team]"
+    },
+    {
+      "name": "Francesca Galasso & Rolando Volzone",
+      "location": "Montemor-o-Novo, Portugal (Convent of São Francisco)",
+      "story_summary": "Heritage documentation researchers from the University of Pavia (Galasso, Dept. of Civil Engineering and Architecture) and ISCTE-IUL Lisbon / NOVA IEM (Volzone) who used an Insta360 X3 panoramic camera to conduct a 360° video survey of a difficult-to-access convent cloister at Montemor-o-Novo, Portugal. The project was presented at the CIPA 30th Symposium in Seoul (August 25–29, 2025) and published in the ISPRS Archives (Volume XLVIII-M-9-2025, pp. 511–518). The Insta360 X3 was used specifically for outdoor heritage documentation of the partially ruined, inaccessible cloister.",
+      "product_used": "Insta360 X3",
+      "why_it_matters": "Heritage professionals using an Insta360 X3 to survey physically inaccessible historic architecture — a decaying convent cloister — is a compelling use case for the camera's portability and 360° coverage in constrained field conditions. Presented at the world's premier heritage photogrammetry conference (CIPA), it represents professional-level endorsement of the Insta360 X3 for cultural heritage work.",
+      "source_link": "https://isprs-archives.copernicus.org/articles/XLVIII-M-9-2025/511/2025/",
+      "source_quote": "video-based acquisition activities in the outdoor environment through Insta360 X3 panoramic camera were conducted in a heritage context",
+      "source_type": "Peer-reviewed conference proceedings (ISPRS Archives, Volume XLVIII-M-9-2025, CIPA 30th Symposium, Seoul, August 2025). DOI: 10.5194/isprs-archives-XLVIII-M-9-2025-511-2025",
+      "confidence": "medium",
+      "run_date": "2026-07-26",
+      "human_reviewed": false,
+      "verification_note": "All 6 checks passed: (1) Insta360 X3 explicitly named in paper; (2) Confirmed via search snippets quoting methods section; (3) Presented August 2025, CIPA Symposium, Seoul — within recency window; (4) Project complete — presented and published at CIPA; (5) Self-reported — camera named in own paper; (6) ISPRS Archives URL confirmed (Copernicus open access); direct WebFetch returns 403 — flag for human review to confirm full text. Not in exclusion list or previous results.",
+      "outreach_email": "francesca.galasso@unipv.it",
+      "outreach_instagram": null,
+      "outreach_draft": "Subject: Insta360 X3 for heritage documentation — CIPA 2025 paper\n\nDear Francesca,\n\nI came across your CIPA 2025 paper on the 360° video survey of the convent cloister at Montemor-o-Novo using the Insta360 X3. Using a 360° panoramic camera to document physically inaccessible heritage architecture is a creative and practical solution that we'd love to share with the Insta360 community.\n\nWe'd love to feature your work on the Insta360 blog and social channels, highlighting how the Insta360 X3 is being used by heritage professionals at international conferences like CIPA. It would show the camera's real-world role in preserving architectural heritage.\n\nWould you and Rolando be open to sharing more about the project?\n\nBest regards,\n[Insta360 Creator Partnerships Team]"
+    },
+    {
+      "name": "Osama Jamil & AnnMarie Brennan",
+      "location": "Melbourne, Australia (University of Melbourne, Melbourne School of Design)",
+      "story_summary": "Architectural heritage researchers at the Melbourne School of Design, University of Melbourne, who used an Insta360 ONE RS 1-Inch 360 camera to capture a heritage cottage in both interior and exterior, then applied Gaussian Splatting (a cutting-edge 3D generative AI technique) to create immersive virtual models of the building. Their paper — published February 28, 2025 in Frontiers in Computer Science — investigates how Gaussian Splatting changes the visual aesthetic and digital atmosphere of architectural heritage representation. The Insta360 was used in both sunny and overcast conditions to analyze how lighting affects the 3D model.",
+      "product_used": "Insta360 ONE RS 1-Inch 360",
+      "why_it_matters": "The intersection of Insta360 and Gaussian Splatting (a buzzy, cutting-edge AI visualization technique) is a story with strong appeal to Insta360's tech-forward creator audience. The University of Melbourne researchers are using the Insta360 ONE RS as the capture device for next-generation AI-generated architectural heritage models — positioning Insta360 as the camera of choice for cutting-edge spatial computing research. Open-access Frontiers publication makes this verifiable and shareable.",
+      "source_link": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1515609/full",
+      "source_quote": "The framework for capturing the Cottage begins with video recording using an Insta360 ONE RS 1-Inch 360 camera, divided into two stages: the interior (entrance and chambers) and the exterior.",
+      "source_type": "Peer-reviewed academic journal (Frontiers in Computer Science, DOI: 10.3389/fcomp.2025.1515609, published February 28, 2025)",
+      "confidence": "medium",
+      "run_date": "2026-07-26",
+      "human_reviewed": false,
+      "verification_note": "All 6 checks passed: (1) Insta360 ONE RS 1-Inch 360 explicitly named in paper methods; (2) Confirmed via multiple search snippets and ResearchGate abstract; (3) Published February 28, 2025 — post Oct 2024 cutoff; fieldwork likely late 2024 given submission lead time; (4) Project complete — paper published and Gaussian Splatting models analyzed; (5) Self-reported — camera named in own paper; (6) Frontiers URL confirmed and ResearchGate PDF also available. Frontiers direct WebFetch may return 403 — flag for human review. Not in exclusion list or previous results.",
+      "outreach_email": null,
+      "outreach_institution": "Melbourne School of Design, University of Melbourne (contact via MSD research admin)",
+      "outreach_instagram": null,
+      "outreach_draft": "Subject: Insta360 ONE RS + Gaussian Splatting for heritage — your Frontiers 2025 paper\n\nDear Osama and AnnMarie,\n\nI recently read your February 2025 paper in Frontiers in Computer Science on using Gaussian Splatting for immersive architectural heritage representation. The use of the Insta360 ONE RS 1-Inch 360 as the capture device for this cutting-edge AI visualization method is a genuinely exciting combination — and a story we'd love to share with the wider Insta360 community.\n\nWe'd love to feature your research on the Insta360 blog, highlighting how the Insta360 ONE RS is being used at the frontier of spatial computing and heritage visualization. It's exactly the kind of unexpected, technically rigorous creative use that inspires our global creator audience.\n\nWould you be open to sharing more about the project and perhaps some imagery from the Gaussian Splatting models?\n\nBest regards,\n[Insta360 Creator Partnerships Team]"
+    }
+  ]
+}

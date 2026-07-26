@@ -1,5 +1,5 @@
 {
-  "next_week_type": "B",
+  "next_week_type": "C",
   "history": [
     {
       "session_date": "2026-06-21",
@@ -109,6 +109,41 @@
         "Insta360 Shark Awareness Day 2026 campaign creators — ZimyDaKid, Ari Rabin-Havt, Roy Mauritsen, Andy Casagrande IV (all are official Insta360 campaign partners, already known to Insta360)"
       ],
       "notes": "Week A adapted strategy produced 2 high-confidence stories — both Insta360 X4, both in educational/scientific contexts. The American Biology Teacher (UCPress) is a strong source for education + Insta360. WGCU PBS/NPR returned accessible snippets with explicit Insta360 mentions. Both stories are from the 'educator/scientist independently chooses Insta360' pattern — compelling authenticity. Medical VR over-representation noted in prior runs; this run has no medical stories. Next week type: B (academic journals — use Google Scholar snippets, focus on conservation biology and non-medical niche science)."
+    },
+    {
+      "session_date": "2026-07-26",
+      "week_type_used": "B",
+      "stories_found_count": 3,
+      "high_confidence_count": 0,
+      "productive_queries": [
+        "'Insta360 X4' 360 virtual tour heritage geoheritage Springer 2026",
+        "Thomas Lemaire Vesuvius Insta360 geoheritage virtual tour Momento360",
+        "Francesca Galasso CIPA 2025 Insta360 heritage documentation ISPRS",
+        "Jamil Brennan Gaussian splatting Insta360 ONE RS heritage Frontiers 2025",
+        "npj Heritage Science Gdansk virtual tours Insta360 X3 2026 (confirmed as Borucka & Picchio — already found)"
+      ],
+      "unproductive_queries": [
+        "Raphaël Larouche sea ice Insta360 ONE Cryosphere 2025 (fieldwork August 2018 — fails recency check)",
+        "npj Heritage Science Gdansk authors (confirmed Borucka & Picchio — already in all_stories.json)",
+        "Google Scholar direct access (403 bot detection — search snippets required as workaround)"
+      ],
+      "new_domains_found": [
+        "isprs-archives.copernicus.org (CIPA/ISPRS — productive for heritage + Insta360 stories)",
+        "link.springer.com Geoheritage (Springer Nature — productive for geoheritage + Insta360)",
+        "frontiersin.org/computer-science (Frontiers CS — emerging spatial computing + Insta360 intersection)"
+      ],
+      "blocked_sources": [
+        "link.springer.com (403 bot detection — use search snippets for quote verification)",
+        "isprs-archives.copernicus.org (403 via WebFetch — use search snippets)",
+        "frontiersin.org article pages (403 via WebFetch — use search snippets or ResearchGate PDF links)",
+        "researchgate.net (403 — but search snippets from ResearchGate links are reliable)",
+        "pubmed.ncbi.nlm.nih.gov (403 — skip medical/surgical VR, already over-represented)"
+      ],
+      "eliminated_candidates": [
+        "Raphaël Larouche et al. (Cryosphere 2025) — Insta360 ONE (oldest model), Arctic fieldwork August 2018, fails recency check",
+        "Justyna Borucka & Francesca Picchio (npj Heritage Science, March 2026, Gdansk) — already found on 2026-06-28 run, confirmed duplicate"
+      ],
+      "notes": "Week B academic strategy produced 3 stories (0 high-confidence). All journal URLs blocked by 403 — search snippet quotes serve as verification. Key finding: CIPA/ISPRS proceedings and Springer Geoheritage are productive sources for heritage + Insta360. Gaussian Splatting + Insta360 ONE RS intersection (Jamil & Brennan, Univ. Melbourne) is an emerging category worth tracking. Medical VR deprioritized — already over-represented. Week C next: niche communities (DPReview, Vimeo, Filmmaker Magazine, No Film School, Insta360 in unexpected fields)."
     }
   ],
   "feedback": [
@@ -125,6 +160,11 @@
     "WGCU.org (PBS/NPR local affiliate) returns full article text accessible via WebSearch — check local PBS/NPR affiliates near university towns",
     "Official Insta360 campaign creators (Shark Awareness Day etc.) appear in search results but are already known to Insta360 — check against exclusion list immediately",
     "The 'educator/scientist independently selects Insta360' pattern (price point cited, app-based controls cited) is highly credible and compelling — prioritize these stories",
-    "Week A searches productive when re-routed from Reddit/YouTube to local news, PBS/NPR affiliates, and academic journal search snippets"
+    "Week A searches productive when re-routed from Reddit/YouTube to local news, PBS/NPR affiliates, and academic journal search snippets",
+    "CIPA/ISPRS proceedings (isprs-archives.copernicus.org) are productive for heritage + Insta360 use — worth revisiting in future Week B runs",
+    "Springer Nature Geoheritage journal is a productive source for field scientists using Insta360 for virtual tours and geoheritage documentation",
+    "Gaussian Splatting + Insta360 is an emerging research intersection (Frontiers in Computer Science) — monitor for future stories",
+    "Borucka & Picchio appear in both CIPA context and npj Heritage Science — always cross-check new heritage paper authors against all_stories.json",
+    "Raphaël Larouche et al. Cryosphere 2025 (Insta360 ONE, Arctic): recency check MUST verify fieldwork date, not just publication date — this paper's 2018 fieldwork disqualifies it despite 2025 publication"
   ]
 }
